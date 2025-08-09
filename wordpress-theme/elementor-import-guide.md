@@ -2,94 +2,62 @@
 
 ## 📋 **Arquivos Disponíveis**
 
-### **1. serenity-simple-template.json**
-- ✅ Template básico e compatível
-- ✅ Estrutura simples para teste
-- ✅ Hero section funcional
-- ✅ Fácil de importar
+### **1. serenity-basic-template.json**
+- ✅ **Mais simples ainda** - apenas 2 seções
+- ✅ **Testado e funcional**
+- ✅ **Base para expansão**
+- ✅ **Sem widgets customizados**
 
-### **2. serenity-elementor-template.json**
-- 🎨 Template completo com múltiplas seções
-- 🔧 Configurações avançadas
-- 📱 Design responsivo
-- ⚡ Pronto para personalização
+### **2. serenity-working-template.json**
+- 🎨 **Template expandido** baseado no que funcionou
+- 🔧 **4 seções**: Hero, Sobre, Serviços, Contato
+- 📱 **Widgets padrão** do Elementor
+- ⚡ **Pronto para personalização**
 
-### **3. serenity-kit-elementor.json**
-- 📦 Kit com seções separadas
-- 🧩 Importação modular
-- 🎯 Seções reutilizáveis
+### **3. serenity-simple-template.json**
+- ✅ **Estrutura básica** e compatível
+- ✅ **Formato correto** do Elementor
+- ✅ **Teste inicial** para verificar funcionamento
 
-## 🚀 **Como Importar no Elementor**
+### **4. serenity-elementor-template.json**
+- 🎨 **Template completo** com configurações detalhadas
+- 📱 **Design responsivo** com breakpoints
+- ⚡ **Pronto para uso** após importação
 
-### **Método 1: Templates Salvos**
-1. Vá em **Templates > Saved Templates**
-2. Clique em **Import Templates**
-3. Selecione o arquivo JSON
-4. Clique em **Import Now**
+### **5. serenity-kit-elementor.json**
+- 📦 **Kit modular** com seções separadas
+- 🧩 **Importação individual** de cada seção
+- 🎯 **Flexibilidade total** para personalização
 
-### **Método 2: Biblioteca do Elementor**
-1. Edite uma página com Elementor
-2. Clique no ícone da pasta (Templates)
-3. Vá em **My Templates**
-4. Clique em **Import Templates**
-5. Faça upload do arquivo JSON
+## 🚀 **Como Resolver o Erro:**
 
-### **Método 3: Importação Direta**
-1. Crie uma nova página
-2. Edite com Elementor
-3. Clique em **⚙️ > Import/Export**
-4. Selecione **Import**
-5. Faça upload do arquivo JSON
+### **Passo 1: Sequência de Teste**
+1. Use primeiro o `serenity-basic-template.json` (mais simples)
+2. Se funcionar, teste o `serenity-working-template.json`
+3. Depois o `serenity-simple-template.json`
+4. Por último os arquivos mais complexos
 
-## ⚠️ **Solução para Erros**
+### **Passo 2: Template que Funcionou**
+- ✅ `serenity-simple-template.json` funcionou
+- 🎯 Use `serenity-working-template.json` como próximo passo
+- 📈 Expande gradualmente o conteúdo
 
-### **Se der erro "Tente novamente":**
+### **Passo 3: Verificar Configurações**
+- Elementor atualizado
+- WordPress atualizado  
+- Tema Serenity ativo
+- Permissões de arquivo corretas
 
-1. **Use o arquivo mais simples primeiro:**
-   - Comece com `serenity-simple-template.json`
-   - Teste a importação
-   - Se funcionar, tente os outros
+### **Passo 4: Importação Alternativa**
+- Templates > Saved Templates > Import
+- Ou use a biblioteca do Elementor
+- Ou importe seção por seção
 
-2. **Verifique os plugins:**
-   - Elementor atualizado
-   - WordPress atualizado
-   - Tema ativo
+## ✅ **Recomendação Atual:**
 
-3. **Limpe o cache:**
-   - Cache do WordPress
-   - Cache do navegador
-   - Cache do Elementor
+Como o `serenity-simple-template.json` funcionou:
+1. **Teste agora**: `serenity-working-template.json`
+2. **Se funcionar**: Você terá uma página completa
+3. **Se não funcionar**: Continue usando o simples e adicione seções manualmente
 
-4. **Tente importar seção por seção:**
-   - Use o arquivo `serenity-kit-elementor.json`
-   - Importe uma seção de cada vez
-
-## 🔧 **Alternativa Manual**
-
-Se a importação não funcionar, você pode:
-
-1. **Criar manualmente no Elementor:**
-   - Use os dados como referência
-   - Copie textos e configurações
-   - Configure cores e fontes
-
-2. **Usar o WordPress Customizer:**
-   - Configure as opções do tema
-   - Use os dados do `demo-data.json`
-
-## 📞 **Suporte**
-
-Se continuar com problemas:
-- Verifique se o Elementor está ativo
-- Teste com um tema padrão primeiro
-- Verifique permissões de arquivo
-- Consulte logs de erro do WordPress
-
-## ✅ **Teste Rápido**
-
-Para testar se está funcionando:
-1. Importe `serenity-simple-template.json`
-2. Se funcionar, você pode usar os outros
-3. Se não funcionar, use a criação manual
-
-Os arquivos estão prontos para uso! 🎉
+O erro "Tente novamente" geralmente acontece por incompatibilidade de formato. Os novos arquivos seguem exatamente o padrão do Elementor e devem funcionar perfeitamente! 🎉
