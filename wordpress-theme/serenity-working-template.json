@@ -1,0 +1,648 @@
+{
+  "content": [
+    {
+      "id": "hero-section-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg"
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "#fefdfbE6",
+        "background_overlay_color_b": "#f6f7f6B3",
+        "min_height": "100vh",
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_position": "middle",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "hero-badge-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"display: inline-block; background: rgba(255,255,255,0.9); padding: 8px 16px; border-radius: 25px; margin-bottom: 20px; font-size: 14px; color: #eab308; font-weight: 500;\">✨ Estética de Alto Padrão</div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Desperte sua<br><span style=\"color: #eab308;\">Beleza Natural</span>",
+                "size": "xxl",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-subtitle-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size: 18px; color: #5f7a5f; text-align: center; max-width: 500px; margin: 0 auto 30px;\">Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.</p>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-buttons-001",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar Consulta",
+                "link": {
+                  "url": "#booking"
+                },
+                "align": "center",
+                "size": "lg",
+                "button_background_color": "#eab308",
+                "button_text_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "25",
+                  "right": "25",
+                  "bottom": "25",
+                  "left": "25"
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-section-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#fefdfb",
+        "background_color_b": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "about-col1-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "about-subtitle-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color: #eab308; font-size: 14px; font-weight: 500; text-transform: uppercase;\">Sobre a Serenity</span>"
+              }
+            },
+            {
+              "id": "about-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Excelência em<br><span style=\"color: #eab308;\">Cuidados Estéticos</span>",
+                "size": "xl",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "about-text-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color: #5f7a5f; line-height: 1.6; margin-bottom: 20px;\">Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão, combinando técnicas avançadas com um ambiente de serenidade e sofisticação única.</p><p style=\"color: #5f7a5f; line-height: 1.6;\">Nossa filosofia é baseada na crença de que cada pessoa possui uma beleza natural única. Trabalhamos para realçar essa beleza através de tratamentos personalizados.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "about-col2-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "about-image-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "15",
+                  "bottom": "15",
+                  "left": "15"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-header-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "services-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossos<br><span style=\"color: #eab308;\">Serviços</span>",
+                "size": "xl",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-grid-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-col1-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "service-card1-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "0",
+                  "left": "10"
+                }
+              }
+            },
+            {
+              "id": "service-title1-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Limpeza de Pele",
+                "size": "medium",
+                "color": "#334133",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "service-text1-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #5f7a5f; font-size: 14px;\">Tratamento completo para remoção de impurezas e renovação celular.</p><p style=\"text-align: center; color: #eab308; font-weight: 600;\">A partir de R$ 180</p>",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "id": "service-col2-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "service-card2-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "0",
+                  "left": "10"
+                }
+              }
+            },
+            {
+              "id": "service-title2-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Peeling Químico",
+                "size": "medium",
+                "color": "#334133",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "service-text2-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #5f7a5f; font-size: 14px;\">Renovação celular através de ácidos específicos para cada tipo de pele.</p><p style=\"text-align: center; color: #eab308; font-weight: 600;\">A partir de R$ 250</p>",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "id": "service-col3-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "service-card3-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "0",
+                  "left": "10"
+                }
+              }
+            },
+            {
+              "id": "service-title3-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Microagulhamento",
+                "size": "medium",
+                "color": "#334133",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "service-text3-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #5f7a5f; font-size: 14px;\">Estimulação natural do colágeno para rejuvenescimento da pele.</p><p style=\"text-align: center; color: #eab308; font-weight: 600;\">A partir de R$ 350</p>",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-section-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f6f7f6",
+        "background_color_b": "#fefdfb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "team-header-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "team-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossa<br><span style=\"color: #eab308;\">Equipe</span>",
+                "size": "xl",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-grid-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f6f7f6",
+        "background_color_b": "#fefdfb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "team-col1-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "team-img1-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                },
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "15",
+                  "bottom": "15",
+                  "left": "15"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 200
+                }
+              }
+            },
+            {
+              "id": "team-name1-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dra. Marina Silva",
+                "size": "medium",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "team-role1-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #eab308; font-weight: 600; margin-bottom: 10px;\">Diretora Clínica</p><p style=\"text-align: center; color: #5f7a5f; font-size: 14px;\">Especialista em Dermatologia Estética<br>15 anos de experiência</p>",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team-col2-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "team-img2-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                },
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "15",
+                  "bottom": "15",
+                  "left": "15"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 200
+                }
+              }
+            },
+            {
+              "id": "team-name2-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ana Carolina",
+                "size": "medium",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "team-role2-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #eab308; font-weight: 600; margin-bottom: 10px;\">Esteticista Senior</p><p style=\"text-align: center; color: #5f7a5f; font-size: 14px;\">Especialista em Tratamentos Faciais<br>10 anos de experiência</p>",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-section-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "contact-column-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "contact-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Entre em<br><span style=\"color: #eab308;\">Contato</span>",
+                "size": "xl",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "contact-info-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"text-align: center; background: #f6f7f6; padding: 30px; border-radius: 15px; margin: 20px auto; max-width: 500px;\"><p style=\"color: #334133; font-weight: 600; margin-bottom: 15px;\">📍 Rua das Flores, 123 - Jardins<br>São Paulo - SP</p><p style=\"color: #334133; font-weight: 600; margin-bottom: 15px;\">📞 (11) 99999-9999</p><p style=\"color: #334133; font-weight: 600; margin-bottom: 15px;\">✉️ contato@serenityclinic.com.br</p><p style=\"color: #5f7a5f; font-size: 14px;\">Seg-Sex: 9h às 18h | Sáb: 9h às 15h</p></div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "contact-button-001",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar pelo WhatsApp",
+                "link": {
+                  "url": "https://wa.me/5511999999999"
+                },
+                "align": "center",
+                "size": "lg",
+                "button_background_color": "#25d366",
+                "button_text_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "25",
+                  "right": "25",
+                  "bottom": "25",
+                  "left": "25"
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

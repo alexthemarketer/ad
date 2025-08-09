@@ -1,0 +1,101 @@
+{
+  "content": [
+    {
+      "id": "basic-hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fefdfb",
+        "min_height": "80vh",
+        "content_position": "middle"
+      },
+      "elements": [
+        {
+          "id": "basic-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "basic-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Serenity Clinic",
+                "size": "xxl",
+                "align": "center",
+                "color": "#334133"
+              }
+            },
+            {
+              "id": "basic-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #5f7a5f; font-size: 18px;\">Estética de Alto Padrão</p>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "basic-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar Consulta",
+                "button_background_color": "#eab308",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basic-about",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "bottom": "60"
+        }
+      },
+      "elements": [
+        {
+          "id": "about-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "about-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sobre Nós",
+                "size": "xl",
+                "align": "center",
+                "color": "#334133"
+              }
+            },
+            {
+              "id": "about-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #5f7a5f; max-width: 600px; margin: 0 auto;\">Há mais de 15 anos oferecendo tratamentos estéticos de excelência em um ambiente acolhedor e sofisticado.</p>",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
