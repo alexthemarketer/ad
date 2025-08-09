@@ -499,17 +499,37 @@ add_action('wp_enqueue_scripts', 'serenity_clinic_elementor_css');
 // Custom Elementor widgets
 function serenity_clinic_register_elementor_widgets() {
     if (did_action('elementor/loaded')) {
-        require_once get_template_directory() . '/elementor-widgets/service-card-widget.php';
-        require_once get_template_directory() . '/elementor-widgets/team-member-widget.php';
-        require_once get_template_directory() . '/elementor-widgets/testimonial-widget.php';
-        require_once get_template_directory() . '/elementor-widgets/booking-form-widget.php';
-        require_once get_template_directory() . '/elementor-widgets/stats-widget.php';
+        $widget_files = array(
+            'service-card-widget.php',
+            'team-member-widget.php',
+            'testimonial-widget.php',
+            'booking-form-widget.php',
+            'stats-widget.php'
+        );
         
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Service_Card_Widget());
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Team_Member_Widget());
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Testimonial_Widget());
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Booking_Form_Widget());
-        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Stats_Widget());
+        foreach ($widget_files as $widget_file) {
+            $file_path = get_template_directory() . '/elementor-widgets/' . $widget_file;
+            if (file_exists($file_path)) {
+                require_once $file_path;
+            }
+        }
+        
+        // Register widgets only if classes exist
+        if (class_exists('Serenity_Service_Card_Widget')) {
+            \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Service_Card_Widget());
+        }
+        if (class_exists('Serenity_Team_Member_Widget')) {
+            \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Team_Member_Widget());
+        }
+        if (class_exists('Serenity_Testimonial_Widget')) {
+            \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Testimonial_Widget());
+        }
+        if (class_exists('Serenity_Booking_Form_Widget')) {
+            \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Booking_Form_Widget());
+        }
+        if (class_exists('Serenity_Stats_Widget')) {
+            \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Stats_Widget());
+        }
     }
 }
 add_action('elementor/widgets/widgets_registered', 'serenity_clinic_register_elementor_widgets');

@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-
+                        <h3><?php echo get_bloginfo('name') ? get_bloginfo('name') : 'Serenity'; ?></h3>
                 <div class="footer-widget-area">
                     <?php if (is_active_sidebar('footer-1')) : ?>
                         <?php dynamic_sidebar('footer-1'); ?>

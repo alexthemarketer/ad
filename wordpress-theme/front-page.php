@@ -192,11 +192,18 @@ get_header(); ?>
                                 <span>Premium</span>
                             </div>
                         </div>
+                    <?php else : ?>
+                        <div class="service-image">
+                            <img src="https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="<?php the_title(); ?>" />
+                            <div class="service-badge">
+                                <span>Premium</span>
+                            </div>
+                        </div>
                     <?php endif; ?>
                     
                     <div class="service-content">
                         <h3 class="service-title"><?php the_title(); ?></h3>
-                        <p class="service-description"><?php the_excerpt(); ?></p>
+                        <p class="service-description"><?php echo has_excerpt() ? get_the_excerpt() : wp_trim_words(get_the_content(), 20); ?></p>
                         
                         <?php if (!empty($benefits_array)) : ?>
                             <div class="service-benefits">
@@ -234,6 +241,70 @@ get_header(); ?>
                 <?php
                     endwhile;
                     wp_reset_postdata();
+                else :
+                    // Show default services if none exist
+                    $default_services = array(
+                        array(
+                            'title' => 'Limpeza de Pele Profunda',
+                            'description' => 'Tratamento completo para remoção de impurezas e renovação celular.',
+                            'duration' => '90 min',
+                            'price' => 'A partir de R$ 180',
+                            'benefits' => array('Remove impurezas', 'Renova a pele', 'Hidratação profunda')
+                        ),
+                        array(
+                            'title' => 'Peeling Químico',
+                            'description' => 'Renovação celular através de ácidos específicos para cada tipo de pele.',
+                            'duration' => '60 min',
+                            'price' => 'A partir de R$ 250',
+                            'benefits' => array('Renovação celular', 'Reduz manchas', 'Melhora textura')
+                        ),
+                        array(
+                            'title' => 'Hidratação Facial Premium',
+                            'description' => 'Tratamento intensivo com ativos de alta performance.',
+                            'duration' => '75 min',
+                            'price' => 'A partir de R$ 220',
+                            'benefits' => array('Hidratação intensa', 'Anti-idade', 'Luminosidade')
+                        )
+                    );
+                    
+                    foreach ($default_services as $service) :
+                ?>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="<?php echo esc_attr($service['title']); ?>" />
+                            <div class="service-badge">
+                                <span>Premium</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title"><?php echo esc_html($service['title']); ?></h3>
+                            <p class="service-description"><?php echo esc_html($service['description']); ?></p>
+                            <div class="service-benefits">
+                                <h4>Benefícios:</h4>
+                                <div class="benefits-tags">
+                                    <?php foreach ($service['benefits'] as $benefit) : ?>
+                                        <span class="benefit-tag"><?php echo esc_html($benefit); ?></span>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+                            <div class="service-meta">
+                                <div class="service-duration">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.7L16.2,16.2Z"/>
+                                    </svg>
+                                    <span><?php echo esc_html($service['duration']); ?></span>
+                                </div>
+                                <div class="service-price">
+                                    <?php echo esc_html($service['price']); ?>
+                                </div>
+                            </div>
+                            <a href="#booking" class="btn btn-outline service-btn">
+                                Agendar Tratamento
+                            </a>
+                        </div>
+                    </div>
+                <?php
+                    endforeach;
                 endif;
                 ?>
             </div>

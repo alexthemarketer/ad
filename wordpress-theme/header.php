@@ -28,10 +28,10 @@
                         <div class="site-info">
                             <h1 class="site-title">
                                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-                                    <?php bloginfo('name'); ?>
+                                    <?php echo get_bloginfo('name') ? get_bloginfo('name') : 'Serenity'; ?>
                                 </a>
                             </h1>
-                            <p class="site-description"><?php bloginfo('description'); ?></p>
+                            <p class="site-description"><?php echo get_bloginfo('description') ? get_bloginfo('description') : 'Aesthetic Clinic'; ?></p>
                         </div>
                     </div>
                 <?php endif; ?>
