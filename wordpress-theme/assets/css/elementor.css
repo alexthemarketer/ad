@@ -1,0 +1,486 @@
+/* Elementor Compatibility Styles for Serenity Clinic */
+
+/* Elementor Container Adjustments */
+.elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1200px;
+}
+
+/* Custom Elementor Widget Styles */
+.serenity-elementor-widget {
+    font-family: var(--font-sans);
+}
+
+/* Service Card Widget */
+.serenity-service-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-cream-200);
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.serenity-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+}
+
+.serenity-service-card .service-image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.serenity-service-card .service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.serenity-service-card:hover .service-image img {
+    transform: scale(1.1);
+}
+
+.serenity-service-card .service-content {
+    padding: var(--spacing-lg);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.serenity-service-card .service-title {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-sage-800);
+    margin-bottom: var(--spacing-sm);
+}
+
+.serenity-service-card .service-description {
+    color: var(--color-sage-600);
+    margin-bottom: var(--spacing-md);
+    flex: 1;
+}
+
+.serenity-service-card .service-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.serenity-service-card .service-duration {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-sage-600);
+    font-size: 0.875rem;
+}
+
+.serenity-service-card .service-price {
+    color: var(--color-gold-600);
+    font-weight: 600;
+}
+
+/* Team Member Widget */
+.serenity-team-member {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-cream-200);
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    text-align: center;
+}
+
+.serenity-team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+}
+
+.serenity-team-member .member-image {
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+}
+
+.serenity-team-member .member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.serenity-team-member:hover .member-image img {
+    transform: scale(1.05);
+}
+
+.serenity-team-member .member-content {
+    padding: var(--spacing-lg);
+}
+
+.serenity-team-member .member-name {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-sage-800);
+    margin-bottom: var(--spacing-xs);
+}
+
+.serenity-team-member .member-role {
+    color: var(--color-gold-600);
+    font-weight: 500;
+    margin-bottom: var(--spacing-sm);
+}
+
+.serenity-team-member .member-specialty {
+    color: var(--color-sage-600);
+    font-size: 0.875rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.serenity-team-member .member-bio {
+    color: var(--color-sage-600);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+/* Testimonial Widget */
+.serenity-testimonial {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-cream-200);
+    transition: all var(--transition-normal);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.serenity-testimonial:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+}
+
+.serenity-testimonial .testimonial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+}
+
+.serenity-testimonial .quote-icon {
+    color: var(--color-gold-400);
+    font-size: 2rem;
+}
+
+.serenity-testimonial .testimonial-rating {
+    display: flex;
+    gap: 2px;
+    color: var(--color-gold-400);
+}
+
+.serenity-testimonial .testimonial-content {
+    flex: 1;
+    margin-bottom: var(--spacing-lg);
+}
+
+.serenity-testimonial .testimonial-text {
+    font-style: italic;
+    color: var(--color-sage-600);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+}
+
+.serenity-testimonial .testimonial-footer {
+    border-top: 1px solid var(--color-cream-200);
+    padding-top: var(--spacing-md);
+}
+
+.serenity-testimonial .client-info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.serenity-testimonial .client-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--color-gold-200);
+}
+
+.serenity-testimonial .client-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serenity-testimonial .client-name {
+    font-weight: 600;
+    color: var(--color-sage-800);
+    margin-bottom: var(--spacing-xs);
+}
+
+.serenity-testimonial .client-treatment {
+    font-size: 0.75rem;
+    color: var(--color-gold-600);
+    font-weight: 500;
+}
+
+/* Stats Widget */
+.serenity-stats {
+    text-align: center;
+}
+
+.serenity-stats .stat-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-600));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    margin: 0 auto var(--spacing-md);
+    font-size: 1.5rem;
+}
+
+.serenity-stats .stat-number {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-sage-800);
+    margin-bottom: var(--spacing-xs);
+}
+
+.serenity-stats .stat-label {
+    color: var(--color-sage-600);
+    font-size: 0.875rem;
+}
+
+/* Booking Form Widget */
+.serenity-booking-form {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-cream-200);
+}
+
+.serenity-booking-form .form-title {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-sage-800);
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+}
+
+.serenity-booking-form .form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.serenity-booking-form .form-group label {
+    display: block;
+    font-weight: 500;
+    color: var(--color-sage-700);
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.875rem;
+}
+
+.serenity-booking-form .form-group input,
+.serenity-booking-form .form-group select,
+.serenity-booking-form .form-group textarea {
+    width: 100%;
+    padding: var(--spacing-sm);
+    border: 1px solid var(--color-cream-300);
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    transition: all var(--transition-normal);
+    background-color: var(--color-white);
+}
+
+.serenity-booking-form .form-group input:focus,
+.serenity-booking-form .form-group select:focus,
+.serenity-booking-form .form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-gold-500);
+    box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.1);
+}
+
+.serenity-booking-form .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.serenity-booking-form .submit-btn {
+    width: 100%;
+    background-color: var(--color-gold-500);
+    color: var(--color-white);
+    border: none;
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.serenity-booking-form .submit-btn:hover {
+    background-color: var(--color-gold-600);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Elementor Button Overrides */
+.elementor-button.serenity-btn-primary {
+    background-color: var(--color-gold-500) !important;
+    border-color: var(--color-gold-500) !important;
+    color: var(--color-white) !important;
+    border-radius: var(--radius-full) !important;
+    font-weight: 600 !important;
+    transition: all var(--transition-normal) !important;
+}
+
+.elementor-button.serenity-btn-primary:hover {
+    background-color: var(--color-gold-600) !important;
+    border-color: var(--color-gold-600) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: var(--shadow-lg) !important;
+}
+
+.elementor-button.serenity-btn-secondary {
+    background-color: transparent !important;
+    border-color: var(--color-sage-300) !important;
+    color: var(--color-sage-700) !important;
+    border-radius: var(--radius-full) !important;
+    font-weight: 600 !important;
+    transition: all var(--transition-normal) !important;
+}
+
+.elementor-button.serenity-btn-secondary:hover {
+    background-color: var(--color-sage-50) !important;
+    border-color: var(--color-sage-400) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Elementor Heading Overrides */
+.elementor-heading-title.serenity-heading {
+    font-family: var(--font-serif) !important;
+    color: var(--color-sage-800) !important;
+}
+
+.elementor-heading-title.serenity-heading.accent {
+    color: var(--color-gold-600) !important;
+}
+
+/* Elementor Text Editor Overrides */
+.elementor-text-editor.serenity-text {
+    color: var(--color-sage-600) !important;
+    line-height: 1.6 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .serenity-booking-form .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .serenity-service-card .service-image,
+    .serenity-team-member .member-image {
+        height: 200px;
+    }
+    
+    .serenity-stats .stat-number {
+        font-size: 2rem;
+    }
+    
+    .serenity-stats .stat-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 1.25rem;
+    }
+}
+
+/* Elementor Section Spacing */
+.elementor-section.serenity-section {
+    padding: var(--spacing-3xl) 0;
+}
+
+.elementor-section.serenity-section-sm {
+    padding: var(--spacing-2xl) 0;
+}
+
+.elementor-section.serenity-section-lg {
+    padding: calc(var(--spacing-3xl) * 1.5) 0;
+}
+
+/* Elementor Background Overlays */
+.elementor-section.serenity-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(254, 253, 251, 0.9), rgba(246, 247, 246, 0.8));
+    z-index: 1;
+}
+
+.elementor-section.serenity-overlay > .elementor-container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Custom Elementor Icons */
+.serenity-icon {
+    color: var(--color-gold-500);
+    transition: color var(--transition-normal);
+}
+
+.serenity-icon:hover {
+    color: var(--color-gold-600);
+}
+
+/* Elementor Form Styling */
+.elementor-form .elementor-field-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.elementor-form .elementor-field {
+    border: 1px solid var(--color-cream-300) !important;
+    border-radius: var(--radius-md) !important;
+    padding: var(--spacing-sm) !important;
+    font-size: 1rem !important;
+    transition: all var(--transition-normal) !important;
+}
+
+.elementor-form .elementor-field:focus {
+    border-color: var(--color-gold-500) !important;
+    box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.1) !important;
+}
+
+.elementor-form .elementor-button {
+    background-color: var(--color-gold-500) !important;
+    border-radius: var(--radius-full) !important;
+    font-weight: 600 !important;
+    transition: all var(--transition-normal) !important;
+}
+
+.elementor-form .elementor-button:hover {
+    background-color: var(--color-gold-600) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: var(--shadow-lg) !important;
+}

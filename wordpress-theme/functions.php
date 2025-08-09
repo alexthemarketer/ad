@@ -436,3 +436,107 @@ function serenity_clinic_customize_register($wp_customize) {
     ));
 }
 add_action('customize_register', 'serenity_clinic_customize_register');
+
+// Elementor Compatibility
+function serenity_clinic_elementor_support() {
+    // Add Elementor support
+    add_theme_support('elementor');
+    
+    // Add support for Elementor Pro features
+    add_theme_support('elementor-pro');
+    
+    // Add support for custom header and footer
+    add_theme_support('custom-header');
+    add_theme_support('custom-footer');
+    
+    // Add support for full width pages
+    add_theme_support('align-wide');
+    add_theme_support('align-full');
+    
+    // Add support for custom colors
+    add_theme_support('editor-color-palette', array(
+        array(
+            'name' => 'Cream Light',
+            'slug' => 'cream-light',
+            'color' => '#fefdfb',
+        ),
+        array(
+            'name' => 'Sage Green',
+            'slug' => 'sage-green',
+            'color' => '#5f7a5f',
+        ),
+        array(
+            'name' => 'Gold',
+            'slug' => 'gold',
+            'color' => '#eab308',
+        ),
+        array(
+            'name' => 'Sage Dark',
+            'slug' => 'sage-dark',
+            'color' => '#334133',
+        ),
+    ));
+}
+add_action('after_setup_theme', 'serenity_clinic_elementor_support');
+
+// Register Elementor locations
+function serenity_clinic_register_elementor_locations($elementor_theme_manager) {
+    $elementor_theme_manager->register_location('header');
+    $elementor_theme_manager->register_location('footer');
+    $elementor_theme_manager->register_location('single');
+    $elementor_theme_manager->register_location('archive');
+}
+add_action('elementor/theme/register_locations', 'serenity_clinic_register_elementor_locations');
+
+// Add Elementor custom CSS
+function serenity_clinic_elementor_css() {
+    if (did_action('elementor/loaded')) {
+        wp_enqueue_style('serenity-elementor', get_template_directory_uri() . '/assets/css/elementor.css', array(), '1.0.0');
+    }
+}
+add_action('wp_enqueue_scripts', 'serenity_clinic_elementor_css');
+
+// Custom Elementor widgets
+function serenity_clinic_register_elementor_widgets() {
+    if (did_action('elementor/loaded')) {
+        require_once get_template_directory() . '/elementor-widgets/service-card-widget.php';
+        require_once get_template_directory() . '/elementor-widgets/team-member-widget.php';
+        require_once get_template_directory() . '/elementor-widgets/testimonial-widget.php';
+        require_once get_template_directory() . '/elementor-widgets/booking-form-widget.php';
+        require_once get_template_directory() . '/elementor-widgets/stats-widget.php';
+        
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Service_Card_Widget());
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Team_Member_Widget());
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Testimonial_Widget());
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Booking_Form_Widget());
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new \Serenity_Stats_Widget());
+    }
+}
+add_action('elementor/widgets/widgets_registered', 'serenity_clinic_register_elementor_widgets');
+
+// Add custom Elementor widget category
+function serenity_clinic_add_elementor_widget_categories($elements_manager) {
+    $elements_manager->add_category(
+        'serenity-clinic',
+        array(
+            'title' => __('Serenity Clinic', 'serenity-clinic'),
+            'icon' => 'fa fa-plug',
+        )
+    );
+}
+add_action('elementor/elements/categories_registered', 'serenity_clinic_add_elementor_widget_categories');
+
+// Disable Elementor default colors and fonts
+function serenity_clinic_disable_elementor_defaults() {
+    update_option('elementor_disable_color_schemes', 'yes');
+    update_option('elementor_disable_typography_schemes', 'yes');
+}
+add_action('after_switch_theme', 'serenity_clinic_disable_elementor_defaults');
+
+// Add Elementor canvas template support
+function serenity_clinic_elementor_canvas_support() {
+    if (is_page_template('elementor_canvas')) {
+        remove_action('wp_head', '_wp_render_title_tag', 1);
+    }
+}
+add_action('wp_head', 'serenity_clinic_elementor_canvas_support', 1);
