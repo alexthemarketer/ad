@@ -1,0 +1,334 @@
+{
+  "version": "1.2",
+  "generator": "WordPress/6.4",
+  "title": "Serenity Clinic - Export Data",
+  "link": "https://serenityclinic.com.br",
+  "description": "Estética de Alto Padrão",
+  "language": "pt-BR",
+  "base_blog_url": "https://serenityclinic.com.br",
+  "wxr_version": "1.2",
+  "posts": [
+    {
+      "post_id": 1,
+      "post_title": "Início",
+      "post_name": "inicio",
+      "post_type": "page",
+      "post_status": "publish",
+      "post_content": "<!-- wp:paragraph -->\n<p>Bem-vindos à Serenity Clinic</p>\n<!-- /wp:paragraph -->",
+      "post_excerpt": "",
+      "post_date": "2024-01-01 10:00:00",
+      "post_modified": "2024-01-01 10:00:00",
+      "menu_order": 0,
+      "post_parent": 0,
+      "is_sticky": false,
+      "postmeta": [
+        {
+          "meta_key": "_elementor_edit_mode",
+          "meta_value": "builder"
+        },
+        {
+          "meta_key": "_elementor_template_type",
+          "meta_value": "wp-page"
+        },
+        {
+          "meta_key": "_elementor_data",
+          "meta_value": "[{\"id\":\"hero-section\",\"elType\":\"section\",\"settings\":{\"background_background\":\"classic\",\"background_image\":{\"url\":\"https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop\"},\"background_overlay_background\":\"gradient\",\"background_overlay_color\":\"rgba(254,253,251,0.9)\",\"background_overlay_color_b\":\"rgba(246,247,246,0.7)\",\"min_height\":\"100vh\",\"content_position\":\"middle\"},\"elements\":[{\"id\":\"hero-column\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"hero-badge\",\"elType\":\"widget\",\"widgetType\":\"text-editor\",\"settings\":{\"editor\":\"<div class=\\\"hero-badge\\\"><span>✨</span> Estética de Alto Padrão</div>\",\"align\":\"center\"}},{\"id\":\"hero-title\",\"elType\":\"widget\",\"widgetType\":\"heading\",\"settings\":{\"title\":\"Desperte sua<br><span style=\\\"color: #eab308;\\\">Beleza Natural</span>\",\"size\":\"xxl\",\"align\":\"center\",\"color\":\"#334133\"}},{\"id\":\"hero-subtitle\",\"elType\":\"widget\",\"widgetType\":\"text-editor\",\"settings\":{\"editor\":\"Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.\",\"align\":\"center\",\"color\":\"#5f7a5f\"}},{\"id\":\"hero-buttons\",\"elType\":\"widget\",\"widgetType\":\"button\",\"settings\":{\"text\":\"Agendar Consulta\",\"link\":{\"url\":\"#booking\"},\"align\":\"center\",\"button_background_color\":\"#eab308\"}}]}]},{\"id\":\"about-section\",\"elType\":\"section\",\"settings\":{\"background_background\":\"gradient\",\"background_color\":\"#fefdfb\",\"background_color_b\":\"#ffffff\"},\"elements\":[{\"id\":\"about-column-1\",\"elType\":\"column\",\"settings\":{\"_column_size\":50},\"elements\":[{\"id\":\"about-subtitle\",\"elType\":\"widget\",\"widgetType\":\"text-editor\",\"settings\":{\"editor\":\"<span style=\\\"color: #eab308;\\\">Sobre a Serenity</span>\"}},{\"id\":\"about-title\",\"elType\":\"widget\",\"widgetType\":\"heading\",\"settings\":{\"title\":\"Excelência em<br><span style=\\\"color: #eab308;\\\">Cuidados Estéticos</span>\",\"color\":\"#334133\"}},{\"id\":\"about-text\",\"elType\":\"widget\",\"widgetType\":\"text-editor\",\"settings\":{\"editor\":\"<p>Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão, combinando técnicas avançadas com um ambiente de serenidade e sofisticação única.</p><p>Nossa filosofia é baseada na crença de que cada pessoa possui uma beleza natural única. Trabalhamos para realçar essa beleza através de tratamentos personalizados.</p>\",\"color\":\"#5f7a5f\"}}]},{\"id\":\"about-column-2\",\"elType\":\"column\",\"settings\":{\"_column_size\":50},\"elements\":[{\"id\":\"about-image\",\"elType\":\"widget\",\"widgetType\":\"image\",\"settings\":{\"image\":{\"url\":\"https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop\"}}}]}]},{\"id\":\"services-section\",\"elType\":\"section\",\"settings\":{\"background_background\":\"classic\",\"background_color\":\"#ffffff\"},\"elements\":[{\"id\":\"services-header\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"services-title\",\"elType\":\"widget\",\"widgetType\":\"heading\",\"settings\":{\"title\":\"Tratamentos<br><span style=\\\"color: #eab308;\\\">Exclusivos</span>\",\"align\":\"center\",\"color\":\"#334133\"}}]},{\"id\":\"services-grid\",\"elType\":\"section\",\"elements\":[{\"id\":\"service-1\",\"elType\":\"column\",\"settings\":{\"_column_size\":33},\"elements\":[{\"id\":\"service-card-1\",\"elType\":\"widget\",\"widgetType\":\"serenity_service_card\",\"settings\":{\"service_title\":\"Limpeza de Pele Profunda\",\"service_description\":\"Tratamento completo para remoção de impurezas e renovação celular.\",\"service_duration\":\"90 min\",\"service_price\":\"A partir de R$ 180\",\"service_image\":{\"url\":\"https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop\"}}}]},{\"id\":\"service-2\",\"elType\":\"column\",\"settings\":{\"_column_size\":33},\"elements\":[{\"id\":\"service-card-2\",\"elType\":\"widget\",\"widgetType\":\"serenity_service_card\",\"settings\":{\"service_title\":\"Peeling Químico\",\"service_description\":\"Renovação celular através de ácidos específicos para cada tipo de pele.\",\"service_duration\":\"60 min\",\"service_price\":\"A partir de R$ 250\",\"service_image\":{\"url\":\"https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop\"}}}]},{\"id\":\"service-3\",\"elType\":\"column\",\"settings\":{\"_column_size\":33},\"elements\":[{\"id\":\"service-card-3\",\"elType\":\"widget\",\"widgetType\":\"serenity_service_card\",\"settings\":{\"service_title\":\"Microagulhamento\",\"service_description\":\"Estimulação natural do colágeno para rejuvenescimento da pele.\",\"service_duration\":\"90 min\",\"service_price\":\"A partir de R$ 350\",\"service_image\":{\"url\":\"https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop\"}}}]}]}]},{\"id\":\"team-section\",\"elType\":\"section\",\"settings\":{\"background_background\":\"gradient\",\"background_color\":\"#fefdfb\",\"background_color_b\":\"#f6f7f6\"},\"elements\":[{\"id\":\"team-header\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"team-title\",\"elType\":\"widget\",\"widgetType\":\"heading\",\"settings\":{\"title\":\"Profissionais<br><span style=\\\"color: #eab308;\\\">Especializados</span>\",\"align\":\"center\",\"color\":\"#334133\"}}]},{\"id\":\"team-grid\",\"elType\":\"section\",\"elements\":[{\"id\":\"team-member-1\",\"elType\":\"column\",\"settings\":{\"_column_size\":25},\"elements\":[{\"id\":\"team-card-1\",\"elType\":\"widget\",\"widgetType\":\"serenity_team_member\",\"settings\":{\"member_name\":\"Dra. Marina Silva\",\"member_role\":\"Diretora Clínica\",\"member_specialty\":\"Dermatologia Estética\",\"member_experience\":\"15 anos\",\"member_image\":{\"url\":\"https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop\"}}}]},{\"id\":\"team-member-2\",\"elType\":\"column\",\"settings\":{\"_column_size\":25},\"elements\":[{\"id\":\"team-card-2\",\"elType\":\"widget\",\"widgetType\":\"serenity_team_member\",\"settings\":{\"member_name\":\"Ana Carolina\",\"member_role\":\"Esteticista Senior\",\"member_specialty\":\"Tratamentos Faciais\",\"member_experience\":\"10 anos\",\"member_image\":{\"url\":\"https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop\"}}}]},{\"id\":\"team-member-3\",\"elType\":\"column\",\"settings\":{\"_column_size\":25},\"elements\":[{\"id\":\"team-card-3\",\"elType\":\"widget\",\"widgetType\":\"serenity_team_member\",\"settings\":{\"member_name\":\"Juliana Santos\",\"member_role\":\"Terapeuta Corporal\",\"member_specialty\":\"Massoterapia\",\"member_experience\":\"8 anos\",\"member_image\":{\"url\":\"https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop\"}}}]},{\"id\":\"team-member-4\",\"elType\":\"column\",\"settings\":{\"_column_size\":25},\"elements\":[{\"id\":\"team-card-4\",\"elType\":\"widget\",\"widgetType\":\"serenity_team_member\",\"settings\":{\"member_name\":\"Camila Rodrigues\",\"member_role\":\"Consultora de Beleza\",\"member_specialty\":\"Harmonização Facial\",\"member_experience\":\"6 anos\",\"member_image\":{\"url\":\"https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop\"}}}]}]}]},{\"id\":\"testimonials-section\",\"elType\":\"section\",\"settings\":{\"background_background\":\"classic\",\"background_color\":\"#ffffff\"},\"elements\":[{\"id\":\"testimonials-header\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"testimonials-title\",\"elType\":\"widget\",\"widgetType\":\"heading\",\"settings\":{\"title\":\"O que nossos<br><span style=\\\"color: #eab308;\\\">Clientes dizem</span>\",\"align\":\"center\",\"color\":\"#334133\"}}]},{\"id\":\"testimonials-grid\",\"elType\":\"section\",\"elements\":[{\"id\":\"testimonial-1\",\"elType\":\"column\",\"settings\":{\"_column_size\":33},\"elements\":[{\"id\":\"testimonial-card-1\",\"elType\":\"widget\",\"widgetType\":\"serenity_testimonial\",\"settings\":{\"client_name\":\"Maria Fernanda\",\"client_age\":\"35 anos\",\"treatment\":\"Tratamento Facial Completo\",\"rating\":\"5\",\"testimonial_text\":\"A experiência na Serenity foi transformadora. O ambiente é incrivelmente acolhedor e os profissionais são extremamente qualificados.\",\"client_image\":{\"url\":\"https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop\"}}}]},{\"id\":\"testimonial-2\",\"elType\":\"column\",\"settings\":{\"_column_size\":33},\"elements\":[{\"id\":\"testimonial-card-2\",\"elType\":\"widget\",\"widgetType\":\"serenity_testimonial\",\"settings\":{\"client_name\":\"Ana Paula\",\"client_age\":\"42 anos\",\"treatment\":\"Drenagem Linfática\",\"rating\":\"5\",\"testimonial_text\":\"Depois de anos procurando um lugar que realmente entendesse minhas necessidades, encontrei na Serenity o cuidado que eu precisava.\",\"client_image\":{\"url\":\"https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop\"}}}]},{\"id\":\"testimonial-3\",\"elType\":\"column\",\"settings\":{\"_column_size\":33},\"elements\":[{\"id\":\"testimonial-card-3\",\"elType\":\"widget\",\"widgetType\":\"serenity_testimonial\",\"settings\":{\"client_name\":\"Carla Santos\",\"client_age\":\"28 anos\",\"treatment\":\"Microagulhamento\",\"rating\":\"5\",\"testimonial_text\":\"O atendimento é impecável desde a recepção até o final do tratamento. Sinto-me renovada a cada visita.\",\"client_image\":{\"url\":\"https://images.pexels.com/photos/3785081/pexels-photo-3785081.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop\"}}}]}]}]},{\"id\":\"booking-section\",\"elType\":\"section\",\"settings\":{\"background_background\":\"gradient\",\"background_color\":\"#ffffff\",\"background_color_b\":\"#fefdfb\"},\"elements\":[{\"id\":\"booking-column\",\"elType\":\"column\",\"settings\":{\"_column_size\":100},\"elements\":[{\"id\":\"booking-form\",\"elType\":\"widget\",\"widgetType\":\"serenity_booking_form\",\"settings\":{\"form_title\":\"Agende sua Consulta\",\"form_description\":\"Preencha o formulário abaixo e nossa equipe entrará em contato para confirmar seu agendamento.\"}}]}]}]"
+        }
+      ]
+    },
+    {
+      "post_id": 2,
+      "post_title": "Limpeza de Pele Profunda",
+      "post_name": "limpeza-pele-profunda",
+      "post_type": "services",
+      "post_status": "publish",
+      "post_content": "<h2>Sobre o Tratamento</h2>\n<p>Nossa limpeza de pele profunda é um tratamento completo que remove impurezas, células mortas e promove a renovação celular. Utilizamos técnicas avançadas e produtos de alta qualidade para garantir resultados excepcionais.</p>\n\n<h3>Como Funciona</h3>\n<p>O tratamento é realizado em etapas cuidadosamente planejadas:</p>\n<ol>\n<li><strong>Análise da Pele:</strong> Avaliação detalhada do tipo de pele e necessidades específicas</li>\n<li><strong>Limpeza Inicial:</strong> Remoção de maquiagem e impurezas superficiais</li>\n<li><strong>Esfoliação:</strong> Remoção de células mortas com produtos específicos</li>\n<li><strong>Extração:</strong> Remoção cuidadosa de cravos e impurezas</li>\n<li><strong>Hidratação:</strong> Aplicação de máscaras e séruns nutritivos</li>\n<li><strong>Proteção:</strong> Finalização com protetor solar</li>\n</ol>\n\n<h3>Resultados Esperados</h3>\n<p>Após o tratamento, você notará:</p>\n<ul>\n<li>Pele mais limpa e livre de impurezas</li>\n<li>Textura mais suave e uniforme</li>\n<li>Redução de oleosidade excessiva</li>\n<li>Poros menos aparentes</li>\n<li>Luminosidade natural</li>\n</ul>",
+      "post_excerpt": "Tratamento completo para remoção de impurezas e renovação celular com técnicas avançadas.",
+      "post_date": "2024-01-02 10:00:00",
+      "post_modified": "2024-01-02 10:00:00",
+      "featured_image": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "postmeta": [
+        {
+          "meta_key": "_service_duration",
+          "meta_value": "90 min"
+        },
+        {
+          "meta_key": "_service_price",
+          "meta_value": "A partir de R$ 180"
+        },
+        {
+          "meta_key": "_service_benefits",
+          "meta_value": "Remove impurezas\nRenova a pele\nHidratação profunda\nMelhora textura\nReduz oleosidade"
+        }
+      ],
+      "terms": [
+        {
+          "taxonomy": "service_category",
+          "slug": "facial",
+          "name": "Tratamentos Faciais"
+        }
+      ]
+    },
+    {
+      "post_id": 3,
+      "post_title": "Peeling Químico",
+      "post_name": "peeling-quimico",
+      "post_type": "services",
+      "post_status": "publish",
+      "post_content": "<h2>Renovação Celular Avançada</h2>\n<p>O peeling químico é um dos tratamentos mais eficazes para renovação da pele. Utilizamos ácidos específicos, cuidadosamente selecionados de acordo com o tipo de pele e objetivos do tratamento.</p>\n\n<h3>Tipos de Peeling</h3>\n<p>Oferecemos diferentes intensidades de peeling:</p>\n<ul>\n<li><strong>Peeling Superficial:</strong> Para renovação suave e luminosidade</li>\n<li><strong>Peeling Médio:</strong> Para manchas e rugas finas</li>\n<li><strong>Peeling Profundo:</strong> Para casos mais severos (avaliação médica)</li>\n</ul>\n\n<h3>Indicações</h3>\n<p>O peeling químico é indicado para:</p>\n<ul>\n<li>Manchas solares e melasma</li>\n<li>Rugas finas e linhas de expressão</li>\n<li>Cicatrizes de acne</li>\n<li>Textura irregular da pele</li>\n<li>Poros dilatados</li>\n</ul>",
+      "post_excerpt": "Renovação celular através de ácidos específicos para cada tipo de pele.",
+      "post_date": "2024-01-03 10:00:00",
+      "post_modified": "2024-01-03 10:00:00",
+      "featured_image": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "postmeta": [
+        {
+          "meta_key": "_service_duration",
+          "meta_value": "60 min"
+        },
+        {
+          "meta_key": "_service_price",
+          "meta_value": "A partir de R$ 250"
+        },
+        {
+          "meta_key": "_service_benefits",
+          "meta_value": "Renovação celular\nReduz manchas\nMelhora textura\nUniformiza tom\nEstimula colágeno"
+        }
+      ],
+      "terms": [
+        {
+          "taxonomy": "service_category",
+          "slug": "facial",
+          "name": "Tratamentos Faciais"
+        }
+      ]
+    },
+    {
+      "post_id": 4,
+      "post_title": "Microagulhamento",
+      "post_name": "microagulhamento",
+      "post_type": "services",
+      "post_status": "publish",
+      "post_content": "<h2>Estimulação Natural do Colágeno</h2>\n<p>O microagulhamento é uma técnica minimamente invasiva que estimula a produção natural de colágeno através de microlesões controladas na pele. É um dos tratamentos mais eficazes para rejuvenescimento facial.</p>\n\n<h3>Como Funciona</h3>\n<p>O procedimento utiliza um dispositivo com microagulhas estéreis que criam pequenos canais na pele, estimulando o processo natural de cicatrização e renovação celular.</p>\n\n<h3>Benefícios</h3>\n<ul>\n<li>Redução de rugas e linhas finas</li>\n<li>Melhora da textura da pele</li>\n<li>Redução de cicatrizes de acne</li>\n<li>Diminuição de poros dilatados</li>\n<li>Aumento da firmeza e elasticidade</li>\n</ul>\n\n<h3>Protocolo de Tratamento</h3>\n<p>Recomendamos um protocolo de 3 a 6 sessões, com intervalos de 30 dias entre cada aplicação, para resultados otimizados.</p>",
+      "post_excerpt": "Estimulação natural do colágeno para rejuvenescimento da pele.",
+      "post_date": "2024-01-04 10:00:00",
+      "post_modified": "2024-01-04 10:00:00",
+      "featured_image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "postmeta": [
+        {
+          "meta_key": "_service_duration",
+          "meta_value": "90 min"
+        },
+        {
+          "meta_key": "_service_price",
+          "meta_value": "A partir de R$ 350"
+        },
+        {
+          "meta_key": "_service_benefits",
+          "meta_value": "Estimula colágeno\nReduz rugas\nMelhora textura\nUniformiza pele\nRejuvenesce"
+        }
+      ],
+      "terms": [
+        {
+          "taxonomy": "service_category",
+          "slug": "estetica",
+          "name": "Procedimentos Estéticos"
+        }
+      ]
+    },
+    {
+      "post_id": 5,
+      "post_title": "Dra. Marina Silva",
+      "post_name": "dra-marina-silva",
+      "post_type": "team",
+      "post_status": "publish",
+      "post_content": "<p>Dra. Marina Silva é a fundadora e diretora clínica da Serenity Clinic. Com mais de 15 anos de experiência em dermatologia estética, ela é reconhecida como uma das principais especialistas em rejuvenescimento facial e corporal no Brasil.</p>\n\n<h3>Formação Acadêmica</h3>\n<ul>\n<li>Graduação em Medicina pela Universidade de São Paulo (USP)</li>\n<li>Residência em Dermatologia no Hospital das Clínicas</li>\n<li>Fellowship em Dermatologia Estética na Harvard Medical School</li>\n<li>Pós-graduação em Medicina Estética pela FMABC</li>\n</ul>\n\n<h3>Especialidades</h3>\n<ul>\n<li>Rejuvenescimento facial não invasivo</li>\n<li>Tratamentos com toxina botulínica</li>\n<li>Preenchimentos com ácido hialurônico</li>\n<li>Peelings químicos avançados</li>\n<li>Microagulhamento e radiofrequência</li>\n</ul>\n\n<h3>Filosofia de Trabalho</h3>\n<p>\"Acredito que cada pessoa possui uma beleza única que deve ser realçada, nunca alterada drasticamente. Meu objetivo é proporcionar resultados naturais que aumentem a autoestima e o bem-estar dos meus pacientes.\"</p>",
+      "post_excerpt": "Diretora clínica especialista em dermatologia estética com formação internacional.",
+      "post_date": "2024-01-05 10:00:00",
+      "post_modified": "2024-01-05 10:00:00",
+      "featured_image": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "postmeta": [
+        {
+          "meta_key": "_team_role",
+          "meta_value": "Diretora Clínica"
+        },
+        {
+          "meta_key": "_team_specialty",
+          "meta_value": "Dermatologia Estética"
+        },
+        {
+          "meta_key": "_team_experience",
+          "meta_value": "15 anos"
+        },
+        {
+          "meta_key": "_team_certifications",
+          "meta_value": "CRM 12345-SP\nEspecialista SBD\nFellowship Harvard\nPós-graduação FMABC"
+        }
+      ]
+    },
+    {
+      "post_id": 6,
+      "post_title": "Maria Fernanda Silva",
+      "post_name": "maria-fernanda-silva",
+      "post_type": "testimonials",
+      "post_status": "publish",
+      "post_content": "A experiência na Serenity foi transformadora. Desde o momento em que entrei na clínica, me senti acolhida pelo ambiente sereno e sofisticado. A Dra. Marina e sua equipe são extremamente qualificados e atenciosos.\n\nO tratamento facial que realizei superou todas as minhas expectativas. Minha pele nunca esteve tão radiante e saudável. O cuidado com cada detalhe, desde a consulta inicial até o acompanhamento pós-tratamento, demonstra o comprometimento da equipe com a excelência.\n\nRecomendo de olhos fechados para qualquer pessoa que busque cuidados estéticos de qualidade em um ambiente acolhedor e profissional.",
+      "post_excerpt": "Experiência transformadora com resultados excepcionais.",
+      "post_date": "2024-01-06 10:00:00",
+      "post_modified": "2024-01-06 10:00:00",
+      "featured_image": "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "postmeta": [
+        {
+          "meta_key": "_testimonial_age",
+          "meta_value": "35 anos"
+        },
+        {
+          "meta_key": "_testimonial_treatment",
+          "meta_value": "Tratamento Facial Completo"
+        },
+        {
+          "meta_key": "_testimonial_rating",
+          "meta_value": "5"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term_id": 1,
+      "name": "Tratamentos Faciais",
+      "slug": "facial",
+      "taxonomy": "service_category",
+      "description": "Cuidados especializados para o rosto com técnicas avançadas"
+    },
+    {
+      "term_id": 2,
+      "name": "Tratamentos Corporais",
+      "slug": "corporal",
+      "taxonomy": "service_category",
+      "description": "Cuidados para o corpo e bem-estar geral"
+    },
+    {
+      "term_id": 3,
+      "name": "Procedimentos Estéticos",
+      "slug": "estetica",
+      "taxonomy": "service_category",
+      "description": "Procedimentos avançados para rejuvenescimento"
+    },
+    {
+      "term_id": 4,
+      "name": "Relaxamento",
+      "slug": "relaxamento",
+      "taxonomy": "service_category",
+      "description": "Tratamentos para bem-estar e relaxamento"
+    }
+  ],
+  "menus": [
+    {
+      "menu_name": "Menu Principal",
+      "menu_slug": "menu-principal",
+      "menu_location": "primary",
+      "menu_items": [
+        {
+          "menu_item_title": "Início",
+          "menu_item_url": "/",
+          "menu_item_type": "page",
+          "menu_item_object_id": 1,
+          "menu_order": 1
+        },
+        {
+          "menu_item_title": "Sobre",
+          "menu_item_url": "/sobre",
+          "menu_item_type": "page",
+          "menu_order": 2
+        },
+        {
+          "menu_item_title": "Serviços",
+          "menu_item_url": "/servicos",
+          "menu_item_type": "post_type_archive",
+          "menu_item_object": "services",
+          "menu_order": 3
+        },
+        {
+          "menu_item_title": "Equipe",
+          "menu_item_url": "/equipe",
+          "menu_item_type": "post_type_archive",
+          "menu_item_object": "team",
+          "menu_order": 4
+        },
+        {
+          "menu_item_title": "Depoimentos",
+          "menu_item_url": "/depoimentos",
+          "menu_item_type": "post_type_archive",
+          "menu_item_object": "testimonials",
+          "menu_order": 5
+        },
+        {
+          "menu_item_title": "Contato",
+          "menu_item_url": "/contato",
+          "menu_item_type": "page",
+          "menu_order": 6
+        }
+      ]
+    }
+  ],
+  "customizer_options": {
+    "hero_title": "Desperte sua Beleza Natural",
+    "hero_subtitle": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.",
+    "contact_phone": "(11) 99999-9999",
+    "contact_email": "contato@serenityclinic.com.br",
+    "contact_address": "Rua das Flores, 123 - Jardins\nSão Paulo - SP, 01234-567",
+    "business_hours": {
+      "monday_friday": "9h às 18h",
+      "saturday": "9h às 15h",
+      "sunday": "Fechado"
+    },
+    "social_media": {
+      "instagram": "https://instagram.com/serenityclinic",
+      "facebook": "https://facebook.com/serenityclinic",
+      "whatsapp": "https://wa.me/5511999999999"
+    }
+  },
+  "widgets": {
+    "footer-1": [
+      {
+        "widget_type": "text",
+        "widget_title": "Links Rápidos",
+        "widget_content": "Navegue rapidamente pelas principais seções do nosso site e encontre tudo o que precisa sobre nossos serviços e tratamentos."
+      }
+    ],
+    "footer-2": [
+      {
+        "widget_type": "text",
+        "widget_title": "Principais Serviços",
+        "widget_content": "<ul><li>Limpeza de Pele Profunda</li><li>Peeling Químico</li><li>Microagulhamento</li><li>Drenagem Linfática</li><li>Massagem Relaxante</li><li>Harmonização Facial</li></ul>"
+      }
+    ],
+    "footer-3": [
+      {
+        "widget_type": "text",
+        "widget_title": "Contato",
+        "widget_content": "<strong>Endereço:</strong><br>Rua das Flores, 123<br>Jardins - São Paulo/SP<br>CEP: 01234-567<br><br><strong>Telefone:</strong><br>(11) 99999-9999<br><br><strong>E-mail:</strong><br>contato@serenityclinic.com.br<br><br><strong>Horário:</strong><br>Seg-Sex: 9h às 18h<br>Sáb: 9h às 15h"
+      }
+    ]
+  },
+  "site_options": {
+    "blogname": "Serenity Clinic",
+    "blogdescription": "Estética de Alto Padrão",
+    "admin_email": "contato@serenityclinic.com.br",
+    "start_of_week": "1",
+    "use_balanceTags": "0",
+    "use_smilies": "1",
+    "require_name_email": "1",
+    "comments_notify": "1",
+    "posts_per_page": "10",
+    "date_format": "j \\d\\e F \\d\\e Y",
+    "time_format": "H:i",
+    "links_updated_date_format": "j \\d\\e F \\d\\e Y, H:i",
+    "comment_moderation": "0",
+    "moderation_notify": "1",
+    "permalink_structure": "/%postname%/",
+    "show_on_front": "page",
+    "page_on_front": 1,
+    "page_for_posts": 0
+  }
+}

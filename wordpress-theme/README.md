@@ -343,6 +343,117 @@ Para suporte técnico ou dúvidas sobre personalização, consulte a documentaç
 
 O tema está pronto para instalação no WordPress e inclui toda a documentação necessária para configuração e personalização. É uma solução completa e profissional para clínicas de estética que desejam uma presença online sofisticada e funcional.
 
+## 📄 **Arquivos JSON Completos**
+
+Agora o tema inclui arquivos JSON completos com dados estruturados para popular o site:
+
+### **wordpress-export.json**
+Arquivo de exportação completo do WordPress com:
+- ✅ Posts e páginas com conteúdo real
+- ✅ Dados de serviços, equipe e depoimentos
+- ✅ Taxonomias e categorias
+- ✅ Menus estruturados
+- ✅ Configurações do customizador
+- ✅ Widgets pré-configurados
+- ✅ Metadados completos
+
+### **elementor-page-data.json**
+Dados específicos do Elementor com:
+- 🎨 Estrutura completa da homepage
+- 🔧 Configurações detalhadas de cada seção
+- 📱 Responsividade configurada
+- ⚡ Widgets customizados com dados reais
+- 🎯 IDs únicos para cada elemento
+
+### **complete-site-data.json**
+Arquivo mestre com todos os dados do site:
+- 🏢 Informações da empresa
+- 🎨 Configurações do tema
+- 📄 Páginas com conteúdo completo
+- 🛠️ Serviços detalhados
+- 👥 Equipe profissional
+- 💬 Depoimentos reais
+- 🧭 Menus estruturados
+- 📊 Widgets configurados
+
+## 🚀 **Como Usar os Dados JSON**
+
+### **Método 1: Importação Direta**
+1. Use o arquivo `wordpress-export.json` com o WordPress Importer
+2. Importe via **Ferramentas > Importar > WordPress**
+3. Configure as imagens e ajuste conforme necessário
+
+### **Método 2: Elementor Templates**
+1. Instale o Elementor
+2. Vá em **Templates > Saved Templates > Import Templates**
+3. Use o arquivo `elementor-page-data.json`
+4. Aplique os templates nas páginas
+
+### **Método 3: Dados Completos**
+1. Use `complete-site-data.json` como referência
+2. Configure manualmente cada seção
+3. Personalize conforme suas necessidades
+
+## 📋 **Conteúdo Incluído nos JSONs**
+
+### **Páginas (4 páginas)**
+- **Início**: Homepage completa com Elementor
+- **Sobre Nós**: História e valores da clínica
+- **Contato**: Informações e formulário
+- **Política de Privacidade**: Termos legais
+
+### **Serviços (5 serviços)**
+- Limpeza de Pele Profunda
+- Peeling Químico
+- Microagulhamento
+- Drenagem Linfática
+- Massagem Relaxante
+
+### **Equipe (2 profissionais)**
+- Dra. Marina Silva (Diretora Clínica)
+- Ana Carolina Santos (Esteticista Senior)
+
+### **Depoimentos (2 clientes)**
+- Maria Fernanda Silva (5 estrelas)
+- Ana Paula Costa (5 estrelas)
+
+### **Configurações Completas**
+- Informações de contato
+- Horário de funcionamento
+- Redes sociais
+- Cores do tema
+- Menus principais e rodapé
+- Widgets das 3 colunas do footer
+
+## ⚙️ **Estrutura dos Dados Elementor**
+
+Os dados do Elementor incluem:
+- **Seções responsivas** com breakpoints
+- **Widgets customizados** da Serenity Clinic
+- **Configurações de design** profissionais
+- **Animações e efeitos** suaves
+- **Cores e tipografia** consistentes
+- **IDs únicos** para cada elemento
+
+## 🎯 **Benefícios dos Arquivos JSON**
+
+1. **Site Completo**: Dados para um site totalmente funcional
+2. **Editável**: Tudo pode ser modificado via WordPress/Elementor
+3. **Profissional**: Conteúdo real e bem estruturado
+4. **Responsivo**: Design otimizado para todos os dispositivos
+5. **SEO Ready**: Estrutura otimizada para mecanismos de busca
+6. **Personalizável**: Fácil de adaptar para qualquer clínica
+
+## ⚠️ **Importante**
+
+- **Backup**: Sempre faça backup antes de importar
+- **Imagens**: URLs do Pexels (gratuitas, mas substitua por fotos reais)
+- **Dados**: Informações fictícias - personalize conforme necessário
+- **Elementor**: Requer plugin Elementor para funcionalidade completa
+- **Personalização**: Todos os textos e configurações são editáveis
+
+Agora você tem dados JSON completos e estruturados para criar um site profissional de clínica de estética totalmente editável via WordPress e Elementor! 🎉
+
 ## 📄 **Arquivos de Dados Demo**
 
 ### **demo-data.json**
