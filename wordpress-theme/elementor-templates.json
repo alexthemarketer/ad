@@ -1,0 +1,796 @@
+{
+  "version": "1.0.0",
+  "title": "Serenity Clinic Elementor Templates",
+  "templates": [
+    {
+      "title": "Serenity Homepage",
+      "type": "page",
+      "author": "Serenity Clinic",
+      "url": "",
+      "thumbnail": "",
+      "date": "2025-01-09 05:30:00",
+      "tags": ["clinic", "homepage", "medical", "spa"],
+      "template_id": "serenity-homepage",
+      "content": [
+        {
+          "id": "hero-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "classic",
+            "background_image": {
+              "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
+              "id": ""
+            },
+            "background_position": "center center",
+            "background_size": "cover",
+            "background_overlay_background": "gradient",
+            "background_overlay_color": "rgba(254,253,251,0.9)",
+            "background_overlay_color_b": "rgba(246,247,246,0.7)",
+            "min_height": "100vh",
+            "content_position": "middle",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-column",
+              "elType": "column",
+              "settings": {
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "hero-badge",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div class=\"hero-badge\"><span class=\"badge-icon\">✨</span> Estética de Alto Padrão</div>",
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "hero-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Desperte sua<br><span style=\"color: #eab308;\">Beleza Natural</span>",
+                    "size": "xxl",
+                    "header_size": "h1",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 64
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#334133"
+                  }
+                },
+                {
+                  "id": "hero-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "color": "#5f7a5f"
+                  }
+                },
+                {
+                  "id": "hero-buttons",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Agendar Consulta",
+                    "link": {
+                      "url": "#booking"
+                    },
+                    "align": "center",
+                    "size": "lg",
+                    "button_background_color": "#eab308",
+                    "button_text_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "about-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "gradient",
+            "background_color": "#fefdfb",
+            "background_color_b": "#ffffff",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "about-column-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "about-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<span style=\"color: #eab308; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;\">Sobre a Serenity</span>"
+                  }
+                },
+                {
+                  "id": "about-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Excelência em<br><span style=\"color: #eab308;\">Cuidados Estéticos</span>",
+                    "size": "xl",
+                    "header_size": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#334133"
+                  }
+                },
+                {
+                  "id": "about-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão, combinando técnicas avançadas com um ambiente de serenidade e sofisticação única.</p><p>Nossa filosofia é baseada na crença de que cada pessoa possui uma beleza natural única. Trabalhamos para realçar essa beleza através de tratamentos personalizados, sempre respeitando a individualidade e os desejos de cada cliente.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "color": "#5f7a5f"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "about-column-2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "about-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stats-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "stats-column-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "stat-1",
+                  "elType": "widget",
+                  "widgetType": "serenity_stats",
+                  "settings": {
+                    "stat_number": "5000+",
+                    "stat_label": "Clientes Satisfeitos",
+                    "stat_icon": {
+                      "value": "fas fa-users",
+                      "library": "fa-solid"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stats-column-2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "stat-2",
+                  "elType": "widget",
+                  "widgetType": "serenity_stats",
+                  "settings": {
+                    "stat_number": "15+",
+                    "stat_label": "Anos de Experiência",
+                    "stat_icon": {
+                      "value": "fas fa-award",
+                      "library": "fa-solid"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stats-column-3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "stat-3",
+                  "elType": "widget",
+                  "widgetType": "serenity_stats",
+                  "settings": {
+                    "stat_number": "98%",
+                    "stat_label": "Taxa de Satisfação",
+                    "stat_icon": {
+                      "value": "fas fa-heart",
+                      "library": "fa-solid"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stats-column-4",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "stat-4",
+                  "elType": "widget",
+                  "widgetType": "serenity_stats",
+                  "settings": {
+                    "stat_number": "50+",
+                    "stat_label": "Tratamentos Exclusivos",
+                    "stat_icon": {
+                      "value": "fas fa-sparkles",
+                      "library": "fa-solid"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "services-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "services-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"text-align: center;\"><span style=\"color: #eab308; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;\">Nossos Serviços</span></div>"
+                  }
+                },
+                {
+                  "id": "services-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Tratamentos<br><span style=\"color: #eab308;\">Exclusivos</span>",
+                    "size": "xl",
+                    "header_size": "h2",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#334133"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-grid",
+          "elType": "section",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff"
+          },
+          "elements": [
+            {
+              "id": "service-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "service-card-1",
+                  "elType": "widget",
+                  "widgetType": "serenity_service_card",
+                  "settings": {
+                    "service_title": "Limpeza de Pele Profunda",
+                    "service_description": "Tratamento completo para remoção de impurezas e renovação celular.",
+                    "service_duration": "90 min",
+                    "service_price": "A partir de R$ 180",
+                    "service_benefits": "Remove impurezas\nRenova a pele\nHidratação profunda",
+                    "service_image": {
+                      "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "service-card-2",
+                  "elType": "widget",
+                  "widgetType": "serenity_service_card",
+                  "settings": {
+                    "service_title": "Peeling Químico",
+                    "service_description": "Renovação celular através de ácidos específicos para cada tipo de pele.",
+                    "service_duration": "60 min",
+                    "service_price": "A partir de R$ 250",
+                    "service_benefits": "Renovação celular\nReduz manchas\nMelhora textura",
+                    "service_image": {
+                      "url": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "service-card-3",
+                  "elType": "widget",
+                  "widgetType": "serenity_service_card",
+                  "settings": {
+                    "service_title": "Microagulhamento",
+                    "service_description": "Estimulação natural do colágeno para rejuvenescimento da pele.",
+                    "service_duration": "90 min",
+                    "service_price": "A partir de R$ 350",
+                    "service_benefits": "Estimula colágeno\nReduz rugas\nMelhora textura",
+                    "service_image": {
+                      "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "team-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "gradient",
+            "background_color": "#fefdfb",
+            "background_color_b": "#f6f7f6",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "team-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "team-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"text-align: center;\"><span style=\"color: #eab308; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;\">Nossa Equipe</span></div>"
+                  }
+                },
+                {
+                  "id": "team-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Profissionais<br><span style=\"color: #eab308;\">Especializados</span>",
+                    "size": "xl",
+                    "header_size": "h2",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#334133"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "team-grid",
+          "elType": "section",
+          "settings": {
+            "background_background": "gradient",
+            "background_color": "#fefdfb",
+            "background_color_b": "#f6f7f6"
+          },
+          "elements": [
+            {
+              "id": "team-member-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "team-card-1",
+                  "elType": "widget",
+                  "widgetType": "serenity_team_member",
+                  "settings": {
+                    "member_name": "Dra. Marina Silva",
+                    "member_role": "Diretora Clínica",
+                    "member_specialty": "Dermatologia Estética",
+                    "member_experience": "15 anos",
+                    "member_bio": "Especialista em dermatologia estética com formação internacional.",
+                    "member_certifications": "CRM 12345-SP\nEspecialista SBD\nFellowship Harvard",
+                    "member_image": {
+                      "url": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "team-member-2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "team-card-2",
+                  "elType": "widget",
+                  "widgetType": "serenity_team_member",
+                  "settings": {
+                    "member_name": "Ana Carolina",
+                    "member_role": "Esteticista Senior",
+                    "member_specialty": "Tratamentos Faciais",
+                    "member_experience": "10 anos",
+                    "member_bio": "Especializada em tratamentos faciais personalizados.",
+                    "member_certifications": "CREF 123456-SP\nCertificação CIDESCO\nPós-graduação USP",
+                    "member_image": {
+                      "url": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "team-member-3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "team-card-3",
+                  "elType": "widget",
+                  "widgetType": "serenity_team_member",
+                  "settings": {
+                    "member_name": "Juliana Santos",
+                    "member_role": "Terapeuta Corporal",
+                    "member_specialty": "Massoterapia",
+                    "member_experience": "8 anos",
+                    "member_bio": "Especialista em massoterapia e drenagem linfática.",
+                    "member_certifications": "CREFITO 12345-SP\nCertificação Ayurveda\nFormação Shiatsu",
+                    "member_image": {
+                      "url": "https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "team-member-4",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "team-card-4",
+                  "elType": "widget",
+                  "widgetType": "serenity_team_member",
+                  "settings": {
+                    "member_name": "Camila Rodrigues",
+                    "member_role": "Consultora de Beleza",
+                    "member_specialty": "Harmonização Facial",
+                    "member_experience": "6 anos",
+                    "member_bio": "Especializada em harmonização facial e procedimentos minimamente invasivos.",
+                    "member_certifications": "Biomedicina CRB 12345\nEspecialização FMABC\nCurso Internacional",
+                    "member_image": {
+                      "url": "https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "testimonials-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "testimonials-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "testimonials-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"text-align: center;\"><span style=\"color: #eab308; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;\">Depoimentos</span></div>"
+                  }
+                },
+                {
+                  "id": "testimonials-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "O que nossos<br><span style=\"color: #eab308;\">Clientes dizem</span>",
+                    "size": "xl",
+                    "header_size": "h2",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#334133"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "testimonials-grid",
+          "elType": "section",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff"
+          },
+          "elements": [
+            {
+              "id": "testimonial-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "testimonial-card-1",
+                  "elType": "widget",
+                  "widgetType": "serenity_testimonial",
+                  "settings": {
+                    "client_name": "Maria Fernanda",
+                    "client_age": "35 anos",
+                    "treatment": "Tratamento Facial Completo",
+                    "rating": "5",
+                    "testimonial_text": "A experiência na Serenity foi transformadora. O ambiente é incrivelmente acolhedor e os profissionais são extremamente qualificados.",
+                    "client_image": {
+                      "url": "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "testimonial-2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "testimonial-card-2",
+                  "elType": "widget",
+                  "widgetType": "serenity_testimonial",
+                  "settings": {
+                    "client_name": "Ana Paula",
+                    "client_age": "42 anos",
+                    "treatment": "Drenagem Linfática",
+                    "rating": "5",
+                    "testimonial_text": "Depois de anos procurando um lugar que realmente entendesse minhas necessidades, encontrei na Serenity o cuidado que eu precisava.",
+                    "client_image": {
+                      "url": "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "testimonial-3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "testimonial-card-3",
+                  "elType": "widget",
+                  "widgetType": "serenity_testimonial",
+                  "settings": {
+                    "client_name": "Carla Santos",
+                    "client_age": "28 anos",
+                    "treatment": "Microagulhamento",
+                    "rating": "5",
+                    "testimonial_text": "O atendimento é impecável desde a recepção até o final do tratamento. Sinto-me renovada a cada visita.",
+                    "client_image": {
+                      "url": "https://images.pexels.com/photos/3785081/pexels-photo-3785081.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "booking-section",
+          "elType": "section",
+          "settings": {
+            "background_background": "gradient",
+            "background_color": "#ffffff",
+            "background_color_b": "#fefdfb",
+            "padding": {
+              "unit": "px",
+              "top": "100",
+              "right": "0",
+              "bottom": "100",
+              "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "booking-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "booking-form",
+                  "elType": "widget",
+                  "widgetType": "serenity_booking_form",
+                  "settings": {
+                    "form_title": "Agende sua Consulta",
+                    "form_description": "Preencha o formulário abaixo e nossa equipe entrará em contato para confirmar seu agendamento.",
+                    "services_list": "Limpeza de Pele Profunda\nPeeling Químico\nHidratação Facial Premium\nDrenagem Linfática\nModelagem Corporal\nMicroagulhamento\nRadiofrequência\nMassagem Relaxante\nAromaterapia\nConsulta Personalizada"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

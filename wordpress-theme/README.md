@@ -342,3 +342,99 @@ Este tema é licenciado sob GPL v2 ou posterior, assim como o WordPress.
 Para suporte técnico ou dúvidas sobre personalização, consulte a documentação do WordPress ou entre em contato com um desenvolvedor qualificado.
 
 O tema está pronto para instalação no WordPress e inclui toda a documentação necessária para configuração e personalização. É uma solução completa e profissional para clínicas de estética que desejam uma presença online sofisticada e funcional.
+
+## 📄 **Arquivos de Dados Demo**
+
+### **demo-data.json**
+Arquivo JSON completo com dados de exemplo para popular o site:
+- ✅ 9 Serviços de exemplo com categorias
+- ✅ 4 Membros da equipe com especialidades
+- ✅ 6 Depoimentos de clientes com avaliações
+- ✅ Páginas principais (Início, Sobre, Contato)
+- ✅ Configurações do tema e customizador
+- ✅ Menus e widgets pré-configurados
+- ✅ Informações de contato e redes sociais
+
+### **elementor-templates.json**
+Templates prontos para Elementor com:
+- 🎨 Homepage completa com todas as seções
+- 🔧 Configurações de design profissional
+- 📱 Layout responsivo
+- ⚡ Widgets customizados pré-configurados
+
+### **import-demo-data.php**
+Script PHP para importação automática dos dados:
+- 🚀 Interface administrativa no WordPress
+- 📊 Log de importação em tempo real
+- 🔒 Verificações de segurança
+- ✅ Importação com um clique
+
+## 🚀 **Como Usar os Dados Demo**
+
+### **Método 1: Importação Automática**
+1. Ative o tema Serenity Clinic
+2. Vá em **Aparência > Dados Demo**
+3. Clique em **"Importar Dados Demo"**
+4. Aguarde a conclusão da importação
+
+### **Método 2: Importação Manual**
+1. Use o arquivo `demo-data.json` com plugins de importação
+2. Configure manualmente usando os dados como referência
+3. Importe templates do Elementor via `elementor-templates.json`
+
+### **Método 3: Elementor Templates**
+1. Instale o Elementor
+2. Vá em **Templates > Saved Templates**
+3. Importe o arquivo `elementor-templates.json`
+4. Use os templates nas suas páginas
+
+## 📋 **Conteúdo Incluído nos Dados Demo**
+
+### **Serviços (9 itens)**
+- Limpeza de Pele Profunda
+- Peeling Químico  
+- Hidratação Facial Premium
+- Drenagem Linfática
+- Modelagem Corporal
+- Microagulhamento
+- Radiofrequência
+- Massagem Relaxante
+- Aromaterapia
+
+### **Equipe (4 profissionais)**
+- Dra. Marina Silva (Diretora Clínica)
+- Ana Carolina Santos (Esteticista Senior)
+- Juliana Oliveira (Terapeuta Corporal)
+- Camila Rodrigues (Consultora de Beleza)
+
+### **Depoimentos (6 clientes)**
+- Avaliações 5 estrelas
+- Fotos de perfil
+- Tratamentos realizados
+- Textos autênticos
+
+### **Configurações**
+- Informações de contato
+- Redes sociais
+- Horário de funcionamento
+- Cores e tipografia
+- Menus e widgets
+
+## ⚠️ **Importante**
+
+- **Backup**: Sempre faça backup antes de importar
+- **Imagens**: Todas as imagens são do Pexels (gratuitas)
+- **Dados**: Informações são fictícias e devem ser personalizadas
+- **Plugins**: Requer Elementor para funcionalidade completa
+- **Personalização**: Todos os dados podem ser editados após importação
+
+## 🎯 **Próximos Passos Após Importação**
+
+1. **Personalize as informações** de contato
+2. **Substitua as imagens** por fotos reais da clínica
+3. **Ajuste os textos** conforme sua realidade
+4. **Configure o formulário** de agendamento
+5. **Teste todas as funcionalidades**
+6. **Otimize para SEO**
+
+Os dados demo fornecem uma base sólida para começar rapidamente, mantendo o design profissional e todas as funcionalidades do tema! 🎉

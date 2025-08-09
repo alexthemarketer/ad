@@ -1,0 +1,508 @@
+{
+  "site_info": {
+    "name": "Serenity Clinic",
+    "description": "Estética de Alto Padrão",
+    "url": "https://serenityclinic.com.br",
+    "admin_email": "contato@serenityclinic.com.br",
+    "timezone": "America/Sao_Paulo",
+    "language": "pt_BR"
+  },
+  "theme_options": {
+    "hero_title": "Desperte sua Beleza Natural",
+    "hero_subtitle": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.",
+    "hero_background": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
+    "contact_phone": "(11) 99999-9999",
+    "contact_email": "contato@serenityclinic.com.br",
+    "contact_address": "Rua das Flores, 123 - Jardins\nSão Paulo - SP, 01234-567",
+    "contact_whatsapp": "5511999999999",
+    "business_hours": {
+      "monday_friday": "9h às 18h",
+      "saturday": "9h às 15h",
+      "sunday": "Fechado"
+    },
+    "social_media": {
+      "instagram": "https://instagram.com/serenityclinic",
+      "facebook": "https://facebook.com/serenityclinic",
+      "whatsapp": "https://wa.me/5511999999999"
+    }
+  },
+  "pages": [
+    {
+      "title": "Início",
+      "slug": "inicio",
+      "template": "front-page.php",
+      "status": "publish",
+      "is_front_page": true,
+      "elementor_data": {
+        "sections": [
+          {
+            "type": "hero",
+            "settings": {
+              "background_image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg",
+              "title": "Desperte sua Beleza Natural",
+              "subtitle": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação.",
+              "button_text": "Agendar Consulta",
+              "button_link": "#booking"
+            }
+          },
+          {
+            "type": "about",
+            "settings": {
+              "title": "Excelência em Cuidados Estéticos",
+              "description": "Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão.",
+              "stats": [
+                {"number": "5000+", "label": "Clientes Satisfeitos"},
+                {"number": "15+", "label": "Anos de Experiência"},
+                {"number": "98%", "label": "Taxa de Satisfação"},
+                {"number": "50+", "label": "Tratamentos Exclusivos"}
+              ]
+            }
+          },
+          {
+            "type": "services",
+            "settings": {
+              "title": "Tratamentos Exclusivos",
+              "show_categories": true,
+              "posts_per_page": 6
+            }
+          },
+          {
+            "type": "team",
+            "settings": {
+              "title": "Profissionais Especializados",
+              "posts_per_page": 4
+            }
+          },
+          {
+            "type": "testimonials",
+            "settings": {
+              "title": "O que nossos Clientes dizem",
+              "posts_per_page": 6
+            }
+          },
+          {
+            "type": "booking",
+            "settings": {
+              "title": "Agende sua Consulta",
+              "form_id": "booking-form"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sobre Nós",
+      "slug": "sobre",
+      "content": "Conheça mais sobre a Serenity Clinic, nossa história, missão e valores.",
+      "status": "publish"
+    },
+    {
+      "title": "Contato",
+      "slug": "contato",
+      "content": "Entre em contato conosco para agendar sua consulta ou esclarecer dúvidas.",
+      "status": "publish"
+    },
+    {
+      "title": "Política de Privacidade",
+      "slug": "politica-privacidade",
+      "content": "Nossa política de privacidade e proteção de dados pessoais.",
+      "status": "publish"
+    }
+  ],
+  "services": [
+    {
+      "title": "Limpeza de Pele Profunda",
+      "slug": "limpeza-pele-profunda",
+      "content": "Tratamento completo para remoção de impurezas e renovação celular. Nossa limpeza de pele profunda utiliza técnicas avançadas e produtos de alta qualidade para deixar sua pele radiante e saudável.",
+      "excerpt": "Tratamento completo para remoção de impurezas e renovação celular.",
+      "featured_image": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "90 min",
+        "price": "A partir de R$ 180",
+        "benefits": "Remove impurezas\nRenova a pele\nHidratação profunda\nMelhora textura\nReduz oleosidade"
+      },
+      "category": "facial",
+      "status": "publish"
+    },
+    {
+      "title": "Peeling Químico",
+      "slug": "peeling-quimico",
+      "content": "Renovação celular através de ácidos específicos para cada tipo de pele. Nosso peeling químico é personalizado de acordo com suas necessidades específicas.",
+      "excerpt": "Renovação celular através de ácidos específicos para cada tipo de pele.",
+      "featured_image": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "60 min",
+        "price": "A partir de R$ 250",
+        "benefits": "Renovação celular\nReduz manchas\nMelhora textura\nUniformiza tom\nEstimula colágeno"
+      },
+      "category": "facial",
+      "status": "publish"
+    },
+    {
+      "title": "Hidratação Facial Premium",
+      "slug": "hidratacao-facial-premium",
+      "content": "Tratamento intensivo com ativos de alta performance para hidratação profunda. Ideal para peles ressecadas e que necessitam de nutrição intensa.",
+      "excerpt": "Tratamento intensivo com ativos de alta performance para hidratação profunda.",
+      "featured_image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "75 min",
+        "price": "A partir de R$ 220",
+        "benefits": "Hidratação intensa\nAnti-idade\nLuminosidade\nSuavidade\nProteção"
+      },
+      "category": "facial",
+      "status": "publish"
+    },
+    {
+      "title": "Drenagem Linfática",
+      "slug": "drenagem-linfatica",
+      "content": "Técnica especializada para redução de inchaço e melhora da circulação. Nossa drenagem linfática é realizada por profissionais especializados.",
+      "excerpt": "Técnica especializada para redução de inchaço e melhora da circulação.",
+      "featured_image": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "60 min",
+        "price": "A partir de R$ 150",
+        "benefits": "Reduz inchaço\nMelhora circulação\nDetox corporal\nRelaxamento\nBem-estar"
+      },
+      "category": "corporal",
+      "status": "publish"
+    },
+    {
+      "title": "Modelagem Corporal",
+      "slug": "modelagem-corporal",
+      "content": "Tratamento completo para definição e tonificação corporal. Combinamos diferentes técnicas para resultados eficazes e duradouros.",
+      "excerpt": "Tratamento completo para definição e tonificação corporal.",
+      "featured_image": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "90 min",
+        "price": "A partir de R$ 280",
+        "benefits": "Define contornos\nReduz medidas\nTonifica músculos\nMelhora firmeza\nAutoestima"
+      },
+      "category": "corporal",
+      "status": "publish"
+    },
+    {
+      "title": "Microagulhamento",
+      "slug": "microagulhamento",
+      "content": "Estimulação natural do colágeno para rejuvenescimento da pele. Técnica minimamente invasiva com resultados comprovados.",
+      "excerpt": "Estimulação natural do colágeno para rejuvenescimento da pele.",
+      "featured_image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "90 min",
+        "price": "A partir de R$ 350",
+        "benefits": "Estimula colágeno\nReduz rugas\nMelhora textura\nUniformiza pele\nRejuvenesce"
+      },
+      "category": "estetica",
+      "status": "publish"
+    },
+    {
+      "title": "Radiofrequência",
+      "slug": "radiofrequencia",
+      "content": "Tecnologia avançada para firmeza e rejuvenescimento da pele. Tratamento não invasivo com resultados visíveis desde a primeira sessão.",
+      "excerpt": "Tecnologia avançada para firmeza e rejuvenescimento da pele.",
+      "featured_image": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "60 min",
+        "price": "A partir de R$ 300",
+        "benefits": "Firma a pele\nReduz flacidez\nEstimula colágeno\nMelhora contorno\nSem dor"
+      },
+      "category": "estetica",
+      "status": "publish"
+    },
+    {
+      "title": "Massagem Relaxante",
+      "slug": "massagem-relaxante",
+      "content": "Técnicas de massagem para alívio do stress e tensões musculares. Momento de relaxamento e bem-estar em ambiente tranquilo.",
+      "excerpt": "Técnicas de massagem para alívio do stress e tensões musculares.",
+      "featured_image": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "60 min",
+        "price": "A partir de R$ 180",
+        "benefits": "Reduz stress\nRelaxa músculos\nBem-estar geral\nMelhora sono\nRenova energia"
+      },
+      "category": "relaxamento",
+      "status": "publish"
+    },
+    {
+      "title": "Aromaterapia",
+      "slug": "aromaterapia",
+      "content": "Tratamento holístico com óleos essenciais para equilíbrio e harmonia. Experiência sensorial única que promove relaxamento profundo.",
+      "excerpt": "Tratamento holístico com óleos essenciais para equilíbrio e harmonia.",
+      "featured_image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "meta": {
+        "duration": "75 min",
+        "price": "A partir de R$ 200",
+        "benefits": "Equilibra energias\nRelaxamento profundo\nHarmonia mental\nReduz ansiedade\nBem-estar"
+      },
+      "category": "relaxamento",
+      "status": "publish"
+    }
+  ],
+  "service_categories": [
+    {
+      "name": "Tratamentos Faciais",
+      "slug": "facial",
+      "description": "Cuidados especializados para o rosto"
+    },
+    {
+      "name": "Tratamentos Corporais",
+      "slug": "corporal",
+      "description": "Cuidados para o corpo"
+    },
+    {
+      "name": "Procedimentos Estéticos",
+      "slug": "estetica",
+      "description": "Procedimentos avançados"
+    },
+    {
+      "name": "Relaxamento",
+      "slug": "relaxamento",
+      "description": "Tratamentos para bem-estar"
+    }
+  ],
+  "team": [
+    {
+      "title": "Dra. Marina Silva",
+      "slug": "dra-marina-silva",
+      "content": "Especialista em dermatologia estética com formação internacional. Pioneira em técnicas avançadas de rejuvenescimento facial e corporal. Dedica-se ao estudo constante das mais modernas tecnologias em estética.",
+      "featured_image": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "meta": {
+        "role": "Diretora Clínica",
+        "specialty": "Dermatologia Estética",
+        "experience": "15 anos",
+        "certifications": "CRM 12345-SP\nEspecialista SBD\nFellowship Harvard\nPós-graduação USP"
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Ana Carolina Santos",
+      "slug": "ana-carolina-santos",
+      "content": "Especializada em tratamentos faciais personalizados e técnicas de rejuvenescimento não invasivas. Possui vasta experiência em protocolos de beleza e cuidados com a pele.",
+      "featured_image": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "meta": {
+        "role": "Esteticista Senior",
+        "specialty": "Tratamentos Faciais",
+        "experience": "10 anos",
+        "certifications": "CREF 123456-SP\nCertificação CIDESCO\nPós-graduação USP\nFormação Internacional"
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Juliana Oliveira",
+      "slug": "juliana-oliveira",
+      "content": "Especialista em massoterapia e drenagem linfática, com técnicas orientais e ocidentais. Formação em diversas modalidades de massagem terapêutica e relaxante.",
+      "featured_image": "https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "meta": {
+        "role": "Terapeuta Corporal",
+        "specialty": "Massoterapia",
+        "experience": "8 anos",
+        "certifications": "CREFITO 12345-SP\nCertificação Ayurveda\nFormação Shiatsu\nQuiropraxia"
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Camila Rodrigues",
+      "slug": "camila-rodrigues",
+      "content": "Especializada em harmonização facial e procedimentos minimamente invasivos para realce da beleza natural. Atualização constante em novas técnicas.",
+      "featured_image": "https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "meta": {
+        "role": "Consultora de Beleza",
+        "specialty": "Harmonização Facial",
+        "experience": "6 anos",
+        "certifications": "Biomedicina CRB 12345\nEspecialização FMABC\nCurso Internacional\nAtualização Constante"
+      },
+      "status": "publish"
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "Maria Fernanda Silva",
+      "slug": "maria-fernanda-silva",
+      "content": "A experiência na Serenity foi transformadora. O ambiente é incrivelmente acolhedor e os profissionais são extremamente qualificados. Minha pele nunca esteve tão radiante! Recomendo de olhos fechados.",
+      "featured_image": "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "meta": {
+        "age": "35 anos",
+        "treatment": "Tratamento Facial Completo",
+        "rating": 5
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Ana Paula Costa",
+      "slug": "ana-paula-costa",
+      "content": "Depois de anos procurando um lugar que realmente entendesse minhas necessidades, encontrei na Serenity o cuidado que eu precisava. A equipe é excepcional e os resultados superaram minhas expectativas.",
+      "featured_image": "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "meta": {
+        "age": "42 anos",
+        "treatment": "Drenagem Linfática",
+        "rating": 5
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Carla Santos",
+      "slug": "carla-santos",
+      "content": "O atendimento é impecável desde a recepção até o final do tratamento. Sinto-me renovada a cada visita. A Serenity se tornou meu refúgio de bem-estar e autoestima.",
+      "featured_image": "https://images.pexels.com/photos/3785081/pexels-photo-3785081.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "meta": {
+        "age": "28 anos",
+        "treatment": "Microagulhamento",
+        "rating": 5
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Juliana Costa",
+      "slug": "juliana-costa",
+      "content": "Cada detalhe é pensado para proporcionar uma experiência única. Os resultados superaram minhas expectativas e o ambiente é simplesmente perfeito para relaxar.",
+      "featured_image": "https://images.pexels.com/photos/3785083/pexels-photo-3785083.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "meta": {
+        "age": "38 anos",
+        "treatment": "Massagem Relaxante",
+        "rating": 5
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Patricia Lima",
+      "slug": "patricia-lima",
+      "content": "A Dra. Marina e sua equipe são excepcionais. O cuidado e a atenção aos detalhes fazem toda a diferença. Minha autoestima está nas alturas após os tratamentos!",
+      "featured_image": "https://images.pexels.com/photos/3785085/pexels-photo-3785085.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "meta": {
+        "age": "45 anos",
+        "treatment": "Peeling Químico",
+        "rating": 5
+      },
+      "status": "publish"
+    },
+    {
+      "title": "Renata Oliveira",
+      "slug": "renata-oliveira",
+      "content": "Resultado natural e exatamente como eu sonhava. A equipe é muito profissional e me senti segura durante todo o processo. Voltarei sempre para manutenção!",
+      "featured_image": "https://images.pexels.com/photos/3785087/pexels-photo-3785087.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "meta": {
+        "age": "31 anos",
+        "treatment": "Harmonização Facial",
+        "rating": 5
+      },
+      "status": "publish"
+    }
+  ],
+  "menus": {
+    "primary": {
+      "name": "Menu Principal",
+      "items": [
+        {"title": "Início", "url": "/", "type": "page"},
+        {"title": "Sobre", "url": "/sobre", "type": "page"},
+        {"title": "Serviços", "url": "/servicos", "type": "archive"},
+        {"title": "Equipe", "url": "/equipe", "type": "archive"},
+        {"title": "Depoimentos", "url": "/depoimentos", "type": "archive"},
+        {"title": "Contato", "url": "/contato", "type": "page"}
+      ]
+    },
+    "footer": {
+      "name": "Menu Rodapé",
+      "items": [
+        {"title": "Início", "url": "/", "type": "page"},
+        {"title": "Sobre Nós", "url": "/sobre", "type": "page"},
+        {"title": "Serviços", "url": "/servicos", "type": "archive"},
+        {"title": "Galeria", "url": "/galeria", "type": "page"},
+        {"title": "Equipe", "url": "/equipe", "type": "archive"},
+        {"title": "Contato", "url": "/contato", "type": "page"}
+      ]
+    }
+  },
+  "widgets": {
+    "footer-1": [
+      {
+        "type": "text",
+        "title": "Links Rápidos",
+        "content": "Navegue rapidamente pelas principais seções do nosso site."
+      }
+    ],
+    "footer-2": [
+      {
+        "type": "text",
+        "title": "Principais Serviços",
+        "content": "<ul><li>Limpeza de Pele</li><li>Peeling Químico</li><li>Microagulhamento</li><li>Drenagem Linfática</li><li>Massagem Relaxante</li><li>Harmonização Facial</li></ul>"
+      }
+    ],
+    "footer-3": [
+      {
+        "type": "text",
+        "title": "Contato",
+        "content": "<strong>Endereço:</strong><br>Rua das Flores, 123<br>Jardins - São Paulo/SP<br><br><strong>Telefone:</strong><br>(11) 99999-9999<br><br><strong>E-mail:</strong><br>contato@serenityclinic.com.br"
+      }
+    ]
+  },
+  "elementor_templates": [
+    {
+      "title": "Homepage Serenity",
+      "type": "page",
+      "content": {
+        "sections": [
+          {
+            "id": "hero-section",
+            "element_type": "section",
+            "settings": {
+              "background_background": "classic",
+              "background_image": {
+                "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg"
+              },
+              "background_overlay_background": "gradient",
+              "min_height": "100vh"
+            },
+            "elements": [
+              {
+                "id": "hero-content",
+                "element_type": "column",
+                "elements": [
+                  {
+                    "element_type": "serenity_service_card",
+                    "settings": {
+                      "service_title": "Limpeza de Pele Profunda",
+                      "service_description": "Tratamento completo para remoção de impurezas",
+                      "service_duration": "90 min",
+                      "service_price": "A partir de R$ 180"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "customizer_settings": {
+    "hero_title": "Desperte sua Beleza Natural",
+    "hero_subtitle": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação.",
+    "contact_phone": "(11) 99999-9999",
+    "contact_email": "contato@serenityclinic.com.br",
+    "contact_address": "Rua das Flores, 123 - Jardins\nSão Paulo - SP, 01234-567",
+    "social_instagram": "https://instagram.com/serenityclinic",
+    "social_facebook": "https://facebook.com/serenityclinic",
+    "social_whatsapp": "https://wa.me/5511999999999"
+  },
+  "import_instructions": {
+    "steps": [
+      "1. Instale o WordPress e ative o tema Serenity Clinic",
+      "2. Instale o plugin Elementor (gratuito ou Pro)",
+      "3. Importe este arquivo JSON usando um plugin de importação",
+      "4. Configure os menus em Aparência > Menus",
+      "5. Configure os widgets em Aparência > Widgets",
+      "6. Ajuste as configurações no Customizador",
+      "7. Edite as páginas com Elementor conforme necessário"
+    ],
+    "required_plugins": [
+      "Elementor",
+      "WordPress Importer (opcional)",
+      "Customizer Export/Import (opcional)"
+    ],
+    "notes": [
+      "Todas as imagens são do Pexels e podem ser substituídas",
+      "Os dados são fictícios e devem ser personalizados",
+      "O formulário de agendamento precisa ser configurado",
+      "Recomenda-se backup antes da importação"
+    ]
+  }
+}
