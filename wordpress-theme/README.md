@@ -42,6 +42,125 @@ Um tema WordPress premium desenvolvido especificamente para clínicas de estéti
 - 3 colunas no rodapé
 - Newsletter integrada
 
+## Principais Características:
+
+### 🔌 **Compatibilidade com Elementor**
+- Suporte completo ao Elementor e Elementor Pro
+- 5 widgets customizados específicos para clínicas
+- Templates canvas e header/footer
+- Paleta de cores integrada
+- Estilos customizados para elementos Elementor
+
+### 🎨 **Design Premium**
+- Paleta de cores sofisticada (creme, sage, dourado)
+- Tipografia elegante (Playfair Display + Inter)
+- Layout responsivo e otimizado
+- Animações suaves e micro-interações
+- Imagens de alta qualidade
+
+### ⚡ **Performance Otimizada**
+- CSS e JavaScript minificados
+- Carregamento lazy de imagens
+- Estrutura semântica HTML5
+- Otimizações de performance
+- Compatível com WordPress 5.0+
+
+### 🎛️ **Widgets Elementor Customizados**
+1. **Service Card** - Cartões de serviços com imagem, descrição, preço e benefícios
+2. **Team Member** - Perfis da equipe com foto, especialidades e certificações  
+3. **Testimonial** - Depoimentos com avaliação por estrelas e foto do cliente
+4. **Booking Form** - Formulário completo de agendamento
+5. **Stats Counter** - Contadores animados com ícones
+
+### 📄 **Arquivos Incluídos**
+- `style.css` - Informações do tema
+- `functions.php` - Funcionalidades principais
+- `index.php` - Template principal
+- `front-page.php` - Página inicial customizada
+- `header.php` e `footer.php` - Cabeçalho e rodapé
+- `single-services.php` - Template para serviços
+- `single-team.php` - Template para equipe
+- `single-testimonials.php` - Template para depoimentos
+- `assets/css/custom.css` - Estilos customizados (2000+ linhas)
+- `assets/js/main.js` - JavaScript interativo
+- `README.md` - Documentação completa
+- `assets/css/elementor.css` - Estilos específicos do Elementor
+- `elementor-widgets/` - Pasta com widgets customizados
+- `page-templates/` - Templates para Elementor
+
+### 🎯 **Seções da Página Inicial**
+1. Hero com call-to-action
+2. Sobre a clínica
+3. Serviços em destaque
+4. Equipe profissional
+5. Depoimentos de clientes
+6. Galeria de fotos
+7. Formulário de agendamento
+8. Informações de contato
+
+## Usando com Elementor
+
+### Instalação do Elementor
+1. Instale o plugin Elementor (gratuito ou Pro)
+2. Ative o tema Serenity Clinic
+3. Os widgets customizados aparecerão automaticamente
+
+### Widgets Disponíveis
+Após a ativação, você encontrará uma nova categoria "Serenity Clinic" no painel do Elementor com os seguintes widgets:
+
+#### 🏥 Service Card
+- Imagem do serviço
+- Título e descrição
+- Duração e preço
+- Lista de benefícios
+- Link para página do serviço
+
+#### 👨‍⚕️ Team Member  
+- Foto profissional
+- Nome e cargo
+- Especialidade e experiência
+- Biografia
+- Certificações
+
+#### 💬 Testimonial
+- Foto do cliente
+- Nome e idade
+- Tratamento realizado
+- Avaliação por estrelas (1-5)
+- Texto do depoimento
+
+#### 📅 Booking Form
+- Formulário completo de agendamento
+- Validação de campos
+- Lista de serviços personalizável
+- Integração com sistema de e-mail
+
+#### 📊 Stats Counter
+- Ícone personalizável
+- Número/estatística
+- Descrição
+- Animação de contagem
+
+### Templates Elementor
+O tema inclui templates especiais para uso com Elementor:
+
+- **Elementor Canvas**: Página em branco para designs totalmente customizados
+- **Elementor Header & Footer**: Mantém header/footer do tema com conteúdo Elementor
+
+### Paleta de Cores Integrada
+O tema adiciona automaticamente as cores da clínica no Elementor:
+- Cream Light (#fefdfb)
+- Sage Green (#5f7a5f)  
+- Gold (#eab308)
+- Sage Dark (#334133)
+
+### Estilos Customizados
+Todos os elementos do Elementor são automaticamente estilizados para combinar com o design da clínica:
+- Botões com bordas arredondadas
+- Formulários com estilo premium
+- Seções com espaçamento adequado
+- Animações suaves
+
 ## Instalação
 
 1. Faça o download do tema
@@ -221,3 +340,5 @@ Este tema é licenciado sob GPL v2 ou posterior, assim como o WordPress.
 ---
 
 Para suporte técnico ou dúvidas sobre personalização, consulte a documentação do WordPress ou entre em contato com um desenvolvedor qualificado.
+
+O tema está pronto para instalação no WordPress e inclui toda a documentação necessária para configuração e personalização. É uma solução completa e profissional para clínicas de estética que desejam uma presença online sofisticada e funcional.
