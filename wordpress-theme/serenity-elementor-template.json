@@ -1,0 +1,267 @@
+{
+  "version": "0.4",
+  "title": "Serenity Clinic Homepage",
+  "type": "page",
+  "author": "Serenity Clinic",
+  "thumbnail": "",
+  "url": "",
+  "date": "2025-01-09 05:30:00",
+  "tags": [],
+  "template_id": 0,
+  "content": [
+    {
+      "id": "1a2b3c4d",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "height": "min-height",
+        "min_height": {
+          "unit": "vh",
+          "size": 100,
+          "sizes": []
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
+          "id": "",
+          "size": "",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_attachment": "scroll",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "#fefdfbE6",
+        "background_overlay_color_b": "#f6f7f6B3",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "5e6f7g8h",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "content_position": "middle",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "9i0j1k2l",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); padding: 8px 16px; border-radius: 50px; border: 1px solid #f7d96e; margin-bottom: 24px; font-size: 14px; font-weight: 500; color: #3d4f3d;\"><span style=\"color: #eab308;\">✨</span> Estética de Alto Padrão</div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "3m4n5o6p",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Desperte sua<br><span style=\"color: #eab308;\">Beleza Natural</span>",
+                "size": "xxl",
+                "header_size": "h1",
+                "align": "center",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64,
+                  "sizes": {
+                    "mobile": 36,
+                    "tablet": 48
+                  }
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                }
+              }
+            },
+            {
+              "id": "7q8r9s0t",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size: 18px; line-height: 1.6; color: #5f7a5f; max-width: 600px; margin: 0 auto 32px; text-align: center;\">Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.</p>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "1u2v3w4x",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar Consulta",
+                "link": {
+                  "url": "#booking",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align": "center",
+                "size": "lg",
+                "button_background_color": "#eab308",
+                "button_text_color": "#ffffff",
+                "background_hover_color": "#ca8a04",
+                "typography_typography": "custom",
+                "typography_font_weight": "600",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "32",
+                  "bottom": "16",
+                  "left": "32",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5y6z7a8b",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "gradient",
+        "background_color": "#fefdfb",
+        "background_color_b": "#ffffff",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 180,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "9c0d1e2f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "3g4h5i6j",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color: #eab308; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;\">Sobre a Serenity</span>"
+              }
+            },
+            {
+              "id": "7k8l9m0n",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Excelência em<br><span style=\"color: #eab308;\">Cuidados Estéticos</span>",
+                "size": "xl",
+                "header_size": "h2",
+                "color": "#334133",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": {
+                    "mobile": 32,
+                    "tablet": 40
+                  }
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "1o2p3q4r",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size: 18px; line-height: 1.7; color: #5f7a5f; margin-bottom: 24px;\">Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão, combinando técnicas avançadas com um ambiente de serenidade e sofisticação única.</p><p style=\"color: #5f7a5f; line-height: 1.6;\">Nossa filosofia é baseada na crença de que cada pessoa possui uma beleza natural única. Trabalhamos para realçar essa beleza através de tratamentos personalizados.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "5s6t7u8v",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "9w0x1y2z",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+                  "id": "",
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "content": [
+    {
+      "id": "section1",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg"
+        },
+        "min_height": "100vh"
+      },
+      "elements": [
+        {
+          "id": "column1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "heading1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Serenity Clinic",
+                "align": "center",
+                "color": "#334133"
+              }
+            },
+            {
+              "id": "text1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Estética de Alto Padrão",
+                "align": "center",
+                "color": "#5f7a5f"
+              }
+            },
+            {
+              "id": "button1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar Consulta",
+                "button_background_color": "#eab308",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Serenity Hero Section",
+    "type": "section",
+    "author": "Serenity Clinic",
+    "thumbnail": "",
+    "date": "2025-01-09 05:30:00",
+    "tags": ["hero", "clinic", "medical"],
+    "template_id": 0,
+    "content": {
+      "id": "hero-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+        },
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "#fefdfbE6",
+        "background_overlay_color_b": "#f6f7f6B3",
+        "min_height": "100vh",
+        "content_position": "middle"
+      },
+      "elements": [
+        {
+          "id": "hero-col-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_position": "middle",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "hero-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Desperte sua<br><span style=\"color: #eab308;\">Beleza Natural</span>",
+                "size": "xxl",
+                "align": "center",
+                "color": "#334133"
+              }
+            },
+            {
+              "id": "hero-subtitle-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação.",
+                "align": "center",
+                "color": "#5f7a5f"
+              }
+            },
+            {
+              "id": "hero-btn-001",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar Consulta",
+                "link": {"url": "#booking"},
+                "button_background_color": "#eab308",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "Serenity About Section",
+    "type": "section",
+    "author": "Serenity Clinic",
+    "thumbnail": "",
+    "date": "2025-01-09 05:30:00",
+    "tags": ["about", "clinic"],
+    "template_id": 0,
+    "content": {
+      "id": "about-001",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#fefdfb",
+        "background_color_b": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "about-col1-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "about-title-001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Excelência em<br><span style=\"color: #eab308;\">Cuidados Estéticos</span>",
+                "color": "#334133"
+              }
+            },
+            {
+              "id": "about-text-001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão.",
+                "color": "#5f7a5f"
+              }
+            }
+          ]
+        },
+        {
+          "id": "about-col2-001",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "about-img-001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
