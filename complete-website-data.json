@@ -1,0 +1,2297 @@
+{
+  "website": {
+    "meta": {
+      "title": "Serenity Clinic - Estética de Alto Padrão",
+      "description": "Clínica de estética especializada em tratamentos de alto padrão com mais de 15 anos de experiência",
+      "keywords": "estética, clínica, beleza, tratamentos, spa, dermatologia",
+      "author": "Serenity Clinic",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "charset": "UTF-8",
+      "language": "pt-BR",
+      "favicon": "/favicon.ico",
+      "og_image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    },
+    "fonts": {
+      "primary": {
+        "name": "Playfair Display",
+        "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap",
+        "fallback": "serif",
+        "usage": "headings"
+      },
+      "secondary": {
+        "name": "Inter",
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap",
+        "fallback": "sans-serif",
+        "usage": "body"
+      }
+    },
+    "colors": {
+      "primary": "#eab308",
+      "secondary": "#5f7a5f",
+      "accent": "#334133",
+      "background": "#fefdfb",
+      "surface": "#ffffff",
+      "text_primary": "#334133",
+      "text_secondary": "#5f7a5f",
+      "text_muted": "#a4b5a4",
+      "cream": {
+        "50": "#fefdfb",
+        "100": "#fdf9f3",
+        "200": "#f9f1e6",
+        "300": "#f4e6d7"
+      },
+      "sage": {
+        "50": "#f6f7f6",
+        "100": "#e3e7e3",
+        "200": "#c7d2c7",
+        "300": "#a4b5a4",
+        "400": "#7d947d",
+        "500": "#5f7a5f",
+        "600": "#4a614a",
+        "700": "#3d4f3d",
+        "800": "#334133"
+      },
+      "gold": {
+        "400": "#f2c43d",
+        "500": "#eab308",
+        "600": "#ca8a04"
+      }
+    },
+    "header": {
+      "type": "fixed",
+      "background": "rgba(255, 255, 255, 0.95)",
+      "backdrop_filter": "blur(10px)",
+      "height": "80px",
+      "padding": "0 20px",
+      "shadow": "0 2px 20px rgba(0,0,0,0.1)",
+      "logo": {
+        "type": "text_with_icon",
+        "icon": {
+          "type": "circle",
+          "background": "linear-gradient(135deg, #f2c43d, #ca8a04)",
+          "text": "S",
+          "color": "#ffffff",
+          "size": "40px",
+          "font_family": "Playfair Display",
+          "font_weight": "700"
+        },
+        "text": {
+          "primary": "Serenity",
+          "secondary": "Aesthetic Clinic",
+          "primary_color": "#334133",
+          "secondary_color": "#5f7a5f",
+          "primary_font": "Playfair Display",
+          "secondary_font": "Inter",
+          "primary_size": "20px",
+          "secondary_size": "12px"
+        }
+      },
+      "navigation": {
+        "items": [
+          {
+            "text": "Início",
+            "href": "#home",
+            "active": true
+          },
+          {
+            "text": "Sobre",
+            "href": "#about"
+          },
+          {
+            "text": "Serviços",
+            "href": "#services"
+          },
+          {
+            "text": "Galeria",
+            "href": "#gallery"
+          },
+          {
+            "text": "Equipe",
+            "href": "#team"
+          },
+          {
+            "text": "Contato",
+            "href": "#contact"
+          }
+        ],
+        "style": {
+          "color": "#334133",
+          "hover_color": "#eab308",
+          "font_family": "Inter",
+          "font_weight": "500",
+          "font_size": "16px"
+        }
+      },
+      "contact_info": {
+        "phone": {
+          "display": "(11) 9999-9999",
+          "link": "tel:+5511999999999"
+        }
+      },
+      "cta_button": {
+        "text": "Agendar",
+        "href": "#booking",
+        "style": {
+          "background": "#eab308",
+          "color": "#ffffff",
+          "padding": "12px 24px",
+          "border_radius": "25px",
+          "font_weight": "600",
+          "hover_background": "#ca8a04",
+          "transition": "all 0.3s ease"
+        }
+      },
+      "mobile_menu": {
+        "enabled": true,
+        "breakpoint": "768px",
+        "icon_color": "#334133",
+        "background": "#ffffff",
+        "overlay": "rgba(0,0,0,0.5)"
+      }
+    },
+    "sections": {
+      "hero": {
+        "id": "home",
+        "type": "hero",
+        "layout": "full_screen",
+        "min_height": "100vh",
+        "background": {
+          "type": "image_with_overlay",
+          "image": {
+            "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
+            "alt": "Luxury spa interior",
+            "position": "center center",
+            "size": "cover"
+          },
+          "overlay": {
+            "type": "gradient",
+            "colors": ["rgba(254,253,251,0.9)", "rgba(246,247,246,0.7)"],
+            "direction": "to right"
+          }
+        },
+        "content": {
+          "alignment": "center",
+          "max_width": "800px",
+          "badge": {
+            "text": "Estética de Alto Padrão",
+            "icon": "✨",
+            "style": {
+              "background": "rgba(255,255,255,0.8)",
+              "backdrop_filter": "blur(10px)",
+              "padding": "8px 16px",
+              "border_radius": "25px",
+              "border": "1px solid #f7d96e",
+              "color": "#3d4f3d",
+              "font_size": "14px",
+              "font_weight": "500",
+              "margin_bottom": "24px"
+            }
+          },
+          "title": {
+            "text": "Desperte sua<br><span style='color: #eab308;'>Beleza Natural</span>",
+            "tag": "h1",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2.5rem, 5vw, 4rem)",
+              "font_weight": "700",
+              "line_height": "1.1",
+              "color": "#334133",
+              "margin_bottom": "24px"
+            }
+          },
+          "subtitle": {
+            "text": "Experimente tratamentos exclusivos em um ambiente de serenidade e sofisticação. Sua jornada de bem-estar começa aqui.",
+            "style": {
+              "font_family": "Inter",
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "margin_bottom": "32px",
+              "max_width": "600px"
+            }
+          },
+          "buttons": [
+            {
+              "text": "Agendar Consulta",
+              "href": "#booking",
+              "type": "primary",
+              "icon": "arrow-right",
+              "style": {
+                "background": "#eab308",
+                "color": "#ffffff",
+                "padding": "16px 32px",
+                "border_radius": "25px",
+                "font_weight": "600",
+                "font_size": "16px",
+                "margin_right": "16px",
+                "hover_background": "#ca8a04",
+                "hover_transform": "translateY(-2px)",
+                "shadow": "0 4px 15px rgba(234, 179, 8, 0.3)"
+              }
+            },
+            {
+              "text": "Nossos Serviços",
+              "href": "#services",
+              "type": "secondary",
+              "style": {
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#334133",
+                "border": "2px solid #a4b5a4",
+                "padding": "16px 32px",
+                "border_radius": "25px",
+                "font_weight": "600",
+                "font_size": "16px",
+                "backdrop_filter": "blur(10px)",
+                "hover_background": "#ffffff",
+                "hover_border_color": "#5f7a5f"
+              }
+            }
+          ]
+        },
+        "floating_elements": [
+          {
+            "type": "circle",
+            "size": "80px",
+            "background": "rgba(242, 196, 61, 0.3)",
+            "position": {
+              "top": "25%",
+              "right": "25%"
+            },
+            "animation": {
+              "type": "float",
+              "duration": "4s",
+              "direction": "vertical",
+              "distance": "20px"
+            },
+            "blur": "20px"
+          },
+          {
+            "type": "circle",
+            "size": "64px",
+            "background": "rgba(164, 181, 164, 0.3)",
+            "position": {
+              "bottom": "33%",
+              "left": "25%"
+            },
+            "animation": {
+              "type": "float",
+              "duration": "5s",
+              "direction": "vertical",
+              "distance": "15px",
+              "delay": "2s"
+            },
+            "blur": "20px"
+          }
+        ],
+        "scroll_indicator": {
+          "enabled": true,
+          "position": {
+            "bottom": "32px",
+            "left": "50%",
+            "transform": "translateX(-50%)"
+          },
+          "style": {
+            "width": "24px",
+            "height": "40px",
+            "border": "2px solid #5f7a5f",
+            "border_radius": "12px"
+          },
+          "animation": {
+            "type": "scroll_wheel",
+            "duration": "2s"
+          }
+        }
+      },
+      "about": {
+        "id": "about",
+        "type": "two_column",
+        "padding": "100px 0",
+        "background": {
+          "type": "gradient",
+          "colors": ["#fefdfb", "#ffffff"],
+          "direction": "to bottom"
+        },
+        "container": {
+          "max_width": "1200px",
+          "padding": "0 20px"
+        },
+        "content": {
+          "left_column": {
+            "width": "50%",
+            "header": {
+              "subtitle": {
+                "text": "Sobre a Serenity",
+                "style": {
+                  "color": "#eab308",
+                  "font_size": "14px",
+                  "font_weight": "500",
+                  "text_transform": "uppercase",
+                  "letter_spacing": "1px",
+                  "margin_bottom": "8px"
+                }
+              },
+              "title": {
+                "text": "Excelência em<br><span style='color: #eab308;'>Cuidados Estéticos</span>",
+                "tag": "h2",
+                "style": {
+                  "font_family": "Playfair Display",
+                  "font_size": "clamp(2rem, 4vw, 3rem)",
+                  "font_weight": "700",
+                  "line_height": "1.2",
+                  "color": "#334133",
+                  "margin_bottom": "24px"
+                }
+              }
+            },
+            "paragraphs": [
+              {
+                "text": "Há mais de 15 anos, a Serenity Clinic tem sido referência em tratamentos estéticos de alto padrão, combinando técnicas avançadas com um ambiente de serenidade e sofisticação única.",
+                "style": {
+                  "font_size": "18px",
+                  "line_height": "1.7",
+                  "color": "#5f7a5f",
+                  "margin_bottom": "24px"
+                }
+              },
+              {
+                "text": "Nossa filosofia é baseada na crença de que cada pessoa possui uma beleza natural única. Trabalhamos para realçar essa beleza através de tratamentos personalizados, sempre respeitando a individualidade e os desejos de cada cliente.",
+                "style": {
+                  "font_size": "16px",
+                  "line_height": "1.6",
+                  "color": "#5f7a5f",
+                  "margin_bottom": "24px"
+                }
+              },
+              {
+                "text": "Com uma equipe de profissionais altamente qualificados e equipamentos de última geração, oferecemos uma experiência completa de bem-estar e renovação em um ambiente acolhedor e luxuoso.",
+                "style": {
+                  "font_size": "16px",
+                  "line_height": "1.6",
+                  "color": "#5f7a5f",
+                  "margin_bottom": "32px"
+                }
+              }
+            ],
+            "values": {
+              "title": "Nossos Valores",
+              "items": [
+                {
+                  "title": "Nossa Missão",
+                  "text": "Proporcionar experiências transformadoras através de cuidados estéticos personalizados.",
+                  "style": {
+                    "background": "#ffffff",
+                    "padding": "16px",
+                    "border_radius": "12px",
+                    "border": "1px solid #f4e6d7",
+                    "shadow": "0 2px 8px rgba(0,0,0,0.05)"
+                  }
+                },
+                {
+                  "title": "Nossos Valores",
+                  "text": "Excelência, ética, inovação e respeito à individualidade de cada cliente.",
+                  "style": {
+                    "background": "#ffffff",
+                    "padding": "16px",
+                    "border_radius": "12px",
+                    "border": "1px solid #f4e6d7",
+                    "shadow": "0 2px 8px rgba(0,0,0,0.05)"
+                  }
+                }
+              ]
+            }
+          },
+          "right_column": {
+            "width": "50%",
+            "image_grid": {
+              "layout": "masonry",
+              "gap": "16px",
+              "images": [
+                {
+                  "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+                  "alt": "Recepção elegante da clínica",
+                  "width": "100%",
+                  "height": "200px",
+                  "border_radius": "12px",
+                  "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+                  "hover_transform": "scale(1.05)"
+                },
+                {
+                  "url": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+                  "alt": "Sala de tratamento",
+                  "width": "100%",
+                  "height": "150px",
+                  "border_radius": "12px",
+                  "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+                  "hover_transform": "scale(1.05)",
+                  "margin_top": "32px"
+                }
+              ]
+            }
+          }
+        },
+        "stats": {
+          "margin_top": "80px",
+          "items": [
+            {
+              "icon": "users",
+              "number": "5000+",
+              "label": "Clientes Satisfeitos",
+              "icon_background": "linear-gradient(135deg, #f2c43d, #ca8a04)",
+              "icon_color": "#ffffff",
+              "number_color": "#334133",
+              "label_color": "#5f7a5f"
+            },
+            {
+              "icon": "award",
+              "number": "15+",
+              "label": "Anos de Experiência",
+              "icon_background": "linear-gradient(135deg, #f2c43d, #ca8a04)",
+              "icon_color": "#ffffff",
+              "number_color": "#334133",
+              "label_color": "#5f7a5f"
+            },
+            {
+              "icon": "heart",
+              "number": "98%",
+              "label": "Taxa de Satisfação",
+              "icon_background": "linear-gradient(135deg, #f2c43d, #ca8a04)",
+              "icon_color": "#ffffff",
+              "number_color": "#334133",
+              "label_color": "#5f7a5f"
+            },
+            {
+              "icon": "sparkles",
+              "number": "50+",
+              "label": "Tratamentos Exclusivos",
+              "icon_background": "linear-gradient(135deg, #f2c43d, #ca8a04)",
+              "icon_color": "#ffffff",
+              "number_color": "#334133",
+              "label_color": "#5f7a5f"
+            }
+          ]
+        }
+      },
+      "services": {
+        "id": "services",
+        "type": "services_grid",
+        "padding": "100px 0",
+        "background": "#ffffff",
+        "header": {
+          "subtitle": {
+            "text": "Nossos Serviços",
+            "style": {
+              "color": "#eab308",
+              "font_size": "14px",
+              "font_weight": "500",
+              "text_transform": "uppercase",
+              "letter_spacing": "1px",
+              "text_align": "center",
+              "margin_bottom": "8px"
+            }
+          },
+          "title": {
+            "text": "Tratamentos<br><span style='color: #eab308;'>Exclusivos</span>",
+            "tag": "h2",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2rem, 4vw, 3rem)",
+              "font_weight": "700",
+              "color": "#334133",
+              "text_align": "center",
+              "margin_bottom": "24px"
+            }
+          },
+          "description": {
+            "text": "Descubra nossa seleção de tratamentos personalizados, desenvolvidos para realçar sua beleza natural e proporcionar momentos únicos de bem-estar.",
+            "style": {
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "text_align": "center",
+              "max_width": "600px",
+              "margin": "0 auto 48px"
+            }
+          }
+        },
+        "categories": {
+          "enabled": true,
+          "items": [
+            {
+              "id": "facial",
+              "name": "Tratamentos Faciais",
+              "active": true
+            },
+            {
+              "id": "corporal",
+              "name": "Tratamentos Corporais"
+            },
+            {
+              "id": "estetica",
+              "name": "Procedimentos Estéticos"
+            },
+            {
+              "id": "relaxamento",
+              "name": "Relaxamento"
+            }
+          ],
+          "style": {
+            "display": "flex",
+            "justify_content": "center",
+            "gap": "16px",
+            "margin_bottom": "48px",
+            "button_style": {
+              "padding": "12px 24px",
+              "border_radius": "25px",
+              "font_weight": "500",
+              "transition": "all 0.3s ease",
+              "inactive": {
+                "background": "#f9f1e6",
+                "color": "#334133"
+              },
+              "active": {
+                "background": "#eab308",
+                "color": "#ffffff",
+                "shadow": "0 4px 15px rgba(234, 179, 8, 0.3)"
+              }
+            }
+          }
+        },
+        "services": [
+          {
+            "id": "limpeza-pele",
+            "category": "facial",
+            "title": "Limpeza de Pele Profunda",
+            "description": "Tratamento completo para remoção de impurezas e renovação celular.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+              "alt": "Limpeza de pele profissional"
+            },
+            "duration": "90 min",
+            "price": "A partir de R$ 180",
+            "benefits": [
+              "Remove impurezas",
+              "Renova a pele",
+              "Hidratação profunda"
+            ],
+            "badge": {
+              "text": "Premium",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "font_weight": "500"
+              }
+            }
+          },
+          {
+            "id": "peeling-quimico",
+            "category": "facial",
+            "title": "Peeling Químico",
+            "description": "Renovação celular através de ácidos específicos para cada tipo de pele.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+              "alt": "Peeling químico profissional"
+            },
+            "duration": "60 min",
+            "price": "A partir de R$ 250",
+            "benefits": [
+              "Renovação celular",
+              "Reduz manchas",
+              "Melhora textura"
+            ],
+            "badge": {
+              "text": "Premium",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "font_weight": "500"
+              }
+            }
+          },
+          {
+            "id": "microagulhamento",
+            "category": "estetica",
+            "title": "Microagulhamento",
+            "description": "Estimulação natural do colágeno para rejuvenescimento da pele.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+              "alt": "Microagulhamento facial"
+            },
+            "duration": "90 min",
+            "price": "A partir de R$ 350",
+            "benefits": [
+              "Estimula colágeno",
+              "Reduz rugas",
+              "Melhora textura"
+            ],
+            "badge": {
+              "text": "Premium",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "font_weight": "500"
+              }
+            }
+          },
+          {
+            "id": "drenagem-linfatica",
+            "category": "corporal",
+            "title": "Drenagem Linfática",
+            "description": "Técnica especializada para redução de inchaço e melhora da circulação.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+              "alt": "Drenagem linfática"
+            },
+            "duration": "60 min",
+            "price": "A partir de R$ 150",
+            "benefits": [
+              "Reduz inchaço",
+              "Melhora circulação",
+              "Detox corporal"
+            ],
+            "badge": {
+              "text": "Premium",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "font_weight": "500"
+              }
+            }
+          },
+          {
+            "id": "massagem-relaxante",
+            "category": "relaxamento",
+            "title": "Massagem Relaxante",
+            "description": "Técnicas de massagem para alívio do stress e tensões musculares.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+              "alt": "Massagem relaxante"
+            },
+            "duration": "60 min",
+            "price": "A partir de R$ 180",
+            "benefits": [
+              "Reduz stress",
+              "Relaxa músculos",
+              "Bem-estar geral"
+            ],
+            "badge": {
+              "text": "Premium",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "font_weight": "500"
+              }
+            }
+          },
+          {
+            "id": "aromaterapia",
+            "category": "relaxamento",
+            "title": "Aromaterapia",
+            "description": "Tratamento holístico com óleos essenciais para equilíbrio e harmonia.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+              "alt": "Aromaterapia"
+            },
+            "duration": "75 min",
+            "price": "A partir de R$ 200",
+            "benefits": [
+              "Equilibra energias",
+              "Relaxamento profundo",
+              "Harmonia mental"
+            ],
+            "badge": {
+              "text": "Premium",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "font_weight": "500"
+              }
+            }
+          }
+        ],
+        "card_style": {
+          "background": "#ffffff",
+          "border_radius": "16px",
+          "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+          "border": "1px solid #f4e6d7",
+          "overflow": "hidden",
+          "transition": "all 0.3s ease",
+          "hover_transform": "translateY(-8px)",
+          "hover_shadow": "0 20px 40px rgba(0,0,0,0.15)"
+        },
+        "cta": {
+          "title": "Não encontrou o que procura?",
+          "description": "Entre em contato conosco para uma consulta personalizada e descubra o tratamento ideal para você.",
+          "button": {
+            "text": "Falar com Especialista",
+            "href": "#contact",
+            "style": {
+              "background": "#eab308",
+              "color": "#ffffff",
+              "padding": "12px 32px",
+              "border_radius": "25px",
+              "font_weight": "600"
+            }
+          },
+          "style": {
+            "background": "linear-gradient(to right, #fefdfb, #f6f7f6)",
+            "padding": "32px",
+            "border_radius": "16px",
+            "text_align": "center",
+            "margin_top": "64px"
+          }
+        }
+      },
+      "gallery": {
+        "id": "gallery",
+        "type": "image_gallery",
+        "padding": "100px 0",
+        "background": {
+          "type": "gradient",
+          "colors": ["#ffffff", "#fefdfb"],
+          "direction": "to bottom"
+        },
+        "header": {
+          "subtitle": {
+            "text": "Nossa Galeria",
+            "style": {
+              "color": "#eab308",
+              "font_size": "14px",
+              "font_weight": "500",
+              "text_transform": "uppercase",
+              "letter_spacing": "1px",
+              "text_align": "center",
+              "margin_bottom": "8px"
+            }
+          },
+          "title": {
+            "text": "Conheça nosso<br><span style='color: #eab308;'>Espaço</span>",
+            "tag": "h2",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2rem, 4vw, 3rem)",
+              "font_weight": "700",
+              "color": "#334133",
+              "text_align": "center",
+              "margin_bottom": "24px"
+            }
+          },
+          "description": {
+            "text": "Um ambiente cuidadosamente projetado para proporcionar serenidade, conforto e uma experiência única de bem-estar em cada visita.",
+            "style": {
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "text_align": "center",
+              "max_width": "600px",
+              "margin": "0 auto 48px"
+            }
+          }
+        },
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+            "alt": "Recepção elegante da clínica",
+            "category": "Ambiente",
+            "size": "large",
+            "grid_span": "2x2"
+          },
+          {
+            "url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+            "alt": "Sala de tratamento facial",
+            "category": "Tratamentos",
+            "size": "medium",
+            "grid_span": "1x1"
+          },
+          {
+            "url": "https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+            "alt": "Ambiente de relaxamento",
+            "category": "Ambiente",
+            "size": "medium",
+            "grid_span": "1x1"
+          },
+          {
+            "url": "https://images.pexels.com/photos/3985164/pexels-photo-3985164.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+            "alt": "Área de descanso",
+            "category": "Ambiente",
+            "size": "medium",
+            "grid_span": "1x1"
+          },
+          {
+            "url": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+            "alt": "Produtos de tratamento",
+            "category": "Produtos",
+            "size": "medium",
+            "grid_span": "1x1"
+          },
+          {
+            "url": "https://images.pexels.com/photos/3985165/pexels-photo-3985165.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+            "alt": "Espaço zen",
+            "category": "Ambiente",
+            "size": "medium",
+            "grid_span": "1x1"
+          }
+        ],
+        "grid_style": {
+          "columns": "repeat(auto-fit, minmax(300px, 1fr))",
+          "gap": "16px",
+          "border_radius": "12px",
+          "hover_effect": "scale(1.02)",
+          "overlay": {
+            "background": "linear-gradient(to top, rgba(0,0,0,0.5), transparent)",
+            "opacity": "0",
+            "hover_opacity": "1"
+          }
+        },
+        "lightbox": {
+          "enabled": true,
+          "background": "rgba(0,0,0,0.9)",
+          "controls": {
+            "close": true,
+            "navigation": true,
+            "info": true
+          }
+        }
+      },
+      "team": {
+        "id": "team",
+        "type": "team_grid",
+        "padding": "100px 0",
+        "background": "#ffffff",
+        "header": {
+          "subtitle": {
+            "text": "Nossa Equipe",
+            "style": {
+              "color": "#eab308",
+              "font_size": "14px",
+              "font_weight": "500",
+              "text_transform": "uppercase",
+              "letter_spacing": "1px",
+              "text_align": "center",
+              "margin_bottom": "8px"
+            }
+          },
+          "title": {
+            "text": "Profissionais<br><span style='color: #eab308;'>Especializados</span>",
+            "tag": "h2",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2rem, 4vw, 3rem)",
+              "font_weight": "700",
+              "color": "#334133",
+              "text_align": "center",
+              "margin_bottom": "24px"
+            }
+          },
+          "description": {
+            "text": "Nossa equipe é formada por profissionais altamente qualificados, comprometidos em oferecer os melhores cuidados estéticos com excelência e dedicação.",
+            "style": {
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "text_align": "center",
+              "max_width": "600px",
+              "margin": "0 auto 48px"
+            }
+          }
+        },
+        "members": [
+          {
+            "id": "dra-marina",
+            "name": "Dra. Marina Silva",
+            "role": "Diretora Clínica",
+            "specialty": "Dermatologia Estética",
+            "experience": "15 anos",
+            "image": {
+              "url": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+              "alt": "Dra. Marina Silva"
+            },
+            "bio": "Especialista em dermatologia estética com formação internacional. Pioneira em técnicas avançadas de rejuvenescimento.",
+            "certifications": [
+              "CRM 12345-SP",
+              "Especialista SBD",
+              "Fellowship Harvard"
+            ],
+            "experience_badge": {
+              "text": "15 anos",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "position": "absolute",
+                "top": "16px",
+                "right": "16px"
+              }
+            }
+          },
+          {
+            "id": "ana-carolina",
+            "name": "Ana Carolina",
+            "role": "Esteticista Senior",
+            "specialty": "Tratamentos Faciais",
+            "experience": "10 anos",
+            "image": {
+              "url": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+              "alt": "Ana Carolina"
+            },
+            "bio": "Especializada em tratamentos faciais personalizados e técnicas de rejuvenescimento não invasivas.",
+            "certifications": [
+              "CREF 123456-SP",
+              "Certificação CIDESCO",
+              "Pós-graduação USP"
+            ],
+            "experience_badge": {
+              "text": "10 anos",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "position": "absolute",
+                "top": "16px",
+                "right": "16px"
+              }
+            }
+          },
+          {
+            "id": "juliana-santos",
+            "name": "Juliana Santos",
+            "role": "Terapeuta Corporal",
+            "specialty": "Massoterapia",
+            "experience": "8 anos",
+            "image": {
+              "url": "https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+              "alt": "Juliana Santos"
+            },
+            "bio": "Especialista em massoterapia e drenagem linfática, com técnicas orientais e ocidentais.",
+            "certifications": [
+              "CREFITO 12345-SP",
+              "Certificação Ayurveda",
+              "Formação Shiatsu"
+            ],
+            "experience_badge": {
+              "text": "8 anos",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "position": "absolute",
+                "top": "16px",
+                "right": "16px"
+              }
+            }
+          },
+          {
+            "id": "camila-rodrigues",
+            "name": "Camila Rodrigues",
+            "role": "Consultora de Beleza",
+            "specialty": "Harmonização Facial",
+            "experience": "6 anos",
+            "image": {
+              "url": "https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+              "alt": "Camila Rodrigues"
+            },
+            "bio": "Especializada em harmonização facial e procedimentos minimamente invasivos para realce da beleza natural.",
+            "certifications": [
+              "Biomedicina CRB 12345",
+              "Especialização FMABC",
+              "Curso Internacional"
+            ],
+            "experience_badge": {
+              "text": "6 anos",
+              "icon": "star",
+              "style": {
+                "background": "rgba(255,255,255,0.9)",
+                "color": "#eab308",
+                "padding": "4px 12px",
+                "border_radius": "15px",
+                "font_size": "12px",
+                "position": "absolute",
+                "top": "16px",
+                "right": "16px"
+              }
+            }
+          }
+        ],
+        "card_style": {
+          "background": "#ffffff",
+          "border_radius": "16px",
+          "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+          "border": "1px solid #f4e6d7",
+          "overflow": "hidden",
+          "transition": "all 0.3s ease",
+          "hover_transform": "translateY(-8px)",
+          "hover_shadow": "0 20px 40px rgba(0,0,0,0.15)"
+        },
+        "values_section": {
+          "title": "Nossos Valores",
+          "description": "Cada membro da nossa equipe compartilha dos mesmos valores fundamentais que norteiam nosso trabalho e relacionamento com os clientes.",
+          "background": "linear-gradient(to right, #fefdfb, #f6f7f6)",
+          "padding": "48px",
+          "border_radius": "16px",
+          "margin_top": "80px",
+          "values": [
+            {
+              "icon": "heart",
+              "title": "Cuidado Personalizado",
+              "description": "Cada cliente é único e merece um atendimento personalizado e dedicado.",
+              "icon_background": "linear-gradient(135deg, #f2c43d, #ca8a04)"
+            },
+            {
+              "icon": "award",
+              "title": "Excelência Técnica",
+              "description": "Comprometimento com a atualização constante e técnicas mais avançadas.",
+              "icon_background": "linear-gradient(135deg, #7d947d, #4a614a)"
+            },
+            {
+              "icon": "star",
+              "title": "Ética Profissional",
+              "description": "Transparência, honestidade e respeito em todas as nossas relações.",
+              "icon_background": "linear-gradient(135deg, #f2c43d, #5f7a5f)"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "type": "testimonials_grid",
+        "padding": "100px 0",
+        "background": {
+          "type": "gradient",
+          "colors": ["#fefdfb", "#ffffff"],
+          "direction": "to bottom"
+        },
+        "header": {
+          "subtitle": {
+            "text": "Depoimentos",
+            "style": {
+              "color": "#eab308",
+              "font_size": "14px",
+              "font_weight": "500",
+              "text_transform": "uppercase",
+              "letter_spacing": "1px",
+              "text_align": "center",
+              "margin_bottom": "8px"
+            }
+          },
+          "title": {
+            "text": "O que nossos<br><span style='color: #eab308;'>Clientes dizem</span>",
+            "tag": "h2",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2rem, 4vw, 3rem)",
+              "font_weight": "700",
+              "color": "#334133",
+              "text_align": "center",
+              "margin_bottom": "24px"
+            }
+          },
+          "description": {
+            "text": "A satisfação dos nossos clientes é nossa maior conquista. Veja o que eles têm a dizer sobre sua experiência na Serenity Clinic.",
+            "style": {
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "text_align": "center",
+              "max_width": "600px",
+              "margin": "0 auto 48px"
+            }
+          }
+        },
+        "testimonials": [
+          {
+            "id": "maria-fernanda",
+            "name": "Maria Fernanda",
+            "age": "35 anos",
+            "treatment": "Tratamento Facial Completo",
+            "rating": 5,
+            "text": "A experiência na Serenity foi transformadora. O ambiente é incrivelmente acolhedor e os profissionais são extremamente qualificados. Minha pele nunca esteve tão radiante!",
+            "image": {
+              "url": "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+              "alt": "Maria Fernanda"
+            }
+          },
+          {
+            "id": "ana-paula",
+            "name": "Ana Paula",
+            "age": "42 anos",
+            "treatment": "Drenagem Linfática",
+            "rating": 5,
+            "text": "Depois de anos procurando um lugar que realmente entendesse minhas necessidades, encontrei na Serenity o cuidado que eu precisava. Recomendo de olhos fechados!",
+            "image": {
+              "url": "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+              "alt": "Ana Paula"
+            }
+          },
+          {
+            "id": "carla-santos",
+            "name": "Carla Santos",
+            "age": "28 anos",
+            "treatment": "Microagulhamento",
+            "rating": 5,
+            "text": "O atendimento é impecável desde a recepção até o final do tratamento. Sinto-me renovada a cada visita. A Serenity se tornou meu refúgio de bem-estar.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3785081/pexels-photo-3785081.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+              "alt": "Carla Santos"
+            }
+          },
+          {
+            "id": "juliana-costa",
+            "name": "Juliana Costa",
+            "age": "38 anos",
+            "treatment": "Massagem Relaxante",
+            "rating": 5,
+            "text": "Cada detalhe é pensado para proporcionar uma experiência única. Os resultados superaram minhas expectativas e o ambiente é simplesmente perfeito.",
+            "image": {
+              "url": "https://images.pexels.com/photos/3785083/pexels-photo-3785083.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+              "alt": "Juliana Costa"
+            }
+          },
+          {
+            "id": "patricia-lima",
+            "name": "Patricia Lima",
+            "age": "45 anos",
+            "treatment": "Peeling Químico",
+            "rating": 5,
+            "text": "A Dra. Marina e sua equipe são excepcionais. O cuidado e a atenção aos detalhes fazem toda a diferença. Minha autoestima está nas alturas!",
+            "image": {
+              "url": "https://images.pexels.com/photos/3785085/pexels-photo-3785085.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+              "alt": "Patricia Lima"
+            }
+          },
+          {
+            "id": "renata-oliveira",
+            "name": "Renata Oliveira",
+            "age": "31 anos",
+            "treatment": "Harmonização Facial",
+            "rating": 5,
+            "text": "Resultado natural e exatamente como eu sonhava. A equipe é muito profissional e me senti segura durante todo o processo. Voltarei sempre!",
+            "image": {
+              "url": "https://images.pexels.com/photos/3785087/pexels-photo-3785087.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+              "alt": "Renata Oliveira"
+            }
+          }
+        ],
+        "card_style": {
+          "background": "#ffffff",
+          "border_radius": "16px",
+          "padding": "24px",
+          "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+          "border": "1px solid #f4e6d7",
+          "transition": "all 0.3s ease",
+          "hover_transform": "translateY(-4px)",
+          "hover_shadow": "0 20px 40px rgba(0,0,0,0.15)"
+        },
+        "stats_section": {
+          "background": "linear-gradient(to right, #f6f7f6, #fdf6d3)",
+          "padding": "48px",
+          "border_radius": "16px",
+          "margin_top": "80px",
+          "stats": [
+            {
+              "number": "98%",
+              "label": "Taxa de Satisfação"
+            },
+            {
+              "number": "5000+",
+              "label": "Clientes Atendidos"
+            },
+            {
+              "number": "15+",
+              "label": "Anos de Experiência"
+            },
+            {
+              "number": "4.9",
+              "label": "Avaliação Média"
+            }
+          ]
+        }
+      },
+      "booking": {
+        "id": "booking",
+        "type": "booking_form",
+        "padding": "100px 0",
+        "background": {
+          "type": "gradient",
+          "colors": ["#ffffff", "#fefdfb"],
+          "direction": "to bottom"
+        },
+        "header": {
+          "subtitle": {
+            "text": "Agendamento",
+            "style": {
+              "color": "#eab308",
+              "font_size": "14px",
+              "font_weight": "500",
+              "text_transform": "uppercase",
+              "letter_spacing": "1px",
+              "text_align": "center",
+              "margin_bottom": "8px"
+            }
+          },
+          "title": {
+            "text": "Agende sua<br><span style='color: #eab308;'>Consulta</span>",
+            "tag": "h2",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2rem, 4vw, 3rem)",
+              "font_weight": "700",
+              "color": "#334133",
+              "text_align": "center",
+              "margin_bottom": "24px"
+            }
+          },
+          "description": {
+            "text": "Preencha o formulário abaixo e nossa equipe entrará em contato para confirmar seu agendamento e esclarecer qualquer dúvida.",
+            "style": {
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "text_align": "center",
+              "max_width": "600px",
+              "margin": "0 auto 48px"
+            }
+          }
+        },
+        "layout": "two_column",
+        "form": {
+          "width": "60%",
+          "background": "#ffffff",
+          "padding": "32px",
+          "border_radius": "16px",
+          "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+          "border": "1px solid #f4e6d7",
+          "fields": [
+            {
+              "type": "text",
+              "name": "name",
+              "label": "Nome Completo",
+              "placeholder": "Seu nome completo",
+              "required": true,
+              "icon": "user",
+              "grid_column": "1 / 2"
+            },
+            {
+              "type": "tel",
+              "name": "phone",
+              "label": "Telefone",
+              "placeholder": "(11) 99999-9999",
+              "required": true,
+              "icon": "phone",
+              "grid_column": "2 / 3"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "label": "E-mail",
+              "placeholder": "seu@email.com",
+              "required": true,
+              "icon": "mail",
+              "grid_column": "1 / 3"
+            },
+            {
+              "type": "select",
+              "name": "service",
+              "label": "Serviço Desejado",
+              "required": true,
+              "options": [
+                {
+                  "value": "",
+                  "text": "Selecione um serviço"
+                },
+                {
+                  "value": "limpeza-pele",
+                  "text": "Limpeza de Pele Profunda"
+                },
+                {
+                  "value": "peeling-quimico",
+                  "text": "Peeling Químico"
+                },
+                {
+                  "value": "hidratacao-facial",
+                  "text": "Hidratação Facial Premium"
+                },
+                {
+                  "value": "drenagem-linfatica",
+                  "text": "Drenagem Linfática"
+                },
+                {
+                  "value": "modelagem-corporal",
+                  "text": "Modelagem Corporal"
+                },
+                {
+                  "value": "microagulhamento",
+                  "text": "Microagulhamento"
+                },
+                {
+                  "value": "radiofrequencia",
+                  "text": "Radiofrequência"
+                },
+                {
+                  "value": "massagem-relaxante",
+                  "text": "Massagem Relaxante"
+                },
+                {
+                  "value": "aromaterapia",
+                  "text": "Aromaterapia"
+                },
+                {
+                  "value": "consulta-personalizada",
+                  "text": "Consulta Personalizada"
+                }
+              ],
+              "grid_column": "1 / 3"
+            },
+            {
+              "type": "date",
+              "name": "date",
+              "label": "Data Preferida",
+              "required": true,
+              "icon": "calendar",
+              "min_date": "tomorrow",
+              "grid_column": "1 / 2"
+            },
+            {
+              "type": "select",
+              "name": "time",
+              "label": "Horário Preferido",
+              "required": true,
+              "icon": "clock",
+              "options": [
+                {
+                  "value": "",
+                  "text": "Selecione um horário"
+                },
+                {
+                  "value": "09:00",
+                  "text": "09:00"
+                },
+                {
+                  "value": "09:30",
+                  "text": "09:30"
+                },
+                {
+                  "value": "10:00",
+                  "text": "10:00"
+                },
+                {
+                  "value": "10:30",
+                  "text": "10:30"
+                },
+                {
+                  "value": "11:00",
+                  "text": "11:00"
+                },
+                {
+                  "value": "11:30",
+                  "text": "11:30"
+                },
+                {
+                  "value": "14:00",
+                  "text": "14:00"
+                },
+                {
+                  "value": "14:30",
+                  "text": "14:30"
+                },
+                {
+                  "value": "15:00",
+                  "text": "15:00"
+                },
+                {
+                  "value": "15:30",
+                  "text": "15:30"
+                },
+                {
+                  "value": "16:00",
+                  "text": "16:00"
+                },
+                {
+                  "value": "16:30",
+                  "text": "16:30"
+                },
+                {
+                  "value": "17:00",
+                  "text": "17:00"
+                },
+                {
+                  "value": "17:30",
+                  "text": "17:30"
+                }
+              ],
+              "grid_column": "2 / 3"
+            },
+            {
+              "type": "textarea",
+              "name": "message",
+              "label": "Observações",
+              "placeholder": "Conte-nos sobre suas expectativas, histórico de tratamentos ou qualquer informação relevante...",
+              "rows": 4,
+              "icon": "message-square",
+              "grid_column": "1 / 3"
+            }
+          ],
+          "submit_button": {
+            "text": "Solicitar Agendamento",
+            "style": {
+              "background": "#eab308",
+              "color": "#ffffff",
+              "padding": "16px 32px",
+              "border_radius": "12px",
+              "font_weight": "600",
+              "font_size": "16px",
+              "width": "100%",
+              "hover_background": "#ca8a04",
+              "hover_transform": "translateY(-2px)",
+              "shadow": "0 4px 15px rgba(234, 179, 8, 0.3)"
+            }
+          },
+          "note": {
+            "text": "* Campos obrigatórios. Ao enviar este formulário, você concorda com nossa política de privacidade.",
+            "style": {
+              "font_size": "12px",
+              "color": "#a4b5a4",
+              "text_align": "center",
+              "margin_top": "16px"
+            }
+          },
+          "field_style": {
+            "padding": "12px 16px",
+            "border": "1px solid #f4e6d7",
+            "border_radius": "8px",
+            "font_size": "16px",
+            "transition": "all 0.3s ease",
+            "focus_border_color": "#eab308",
+            "focus_shadow": "0 0 0 3px rgba(234, 179, 8, 0.1)"
+          }
+        },
+        "info_panel": {
+          "width": "40%",
+          "sections": [
+            {
+              "type": "contact_info",
+              "title": "Informações de Contato",
+              "background": "linear-gradient(135deg, #f6f7f6, #fefdfb)",
+              "padding": "32px",
+              "border_radius": "16px",
+              "items": [
+                {
+                  "icon": "phone",
+                  "title": "(11) 9999-9999",
+                  "subtitle": "WhatsApp disponível",
+                  "icon_color": "#eab308"
+                },
+                {
+                  "icon": "mail",
+                  "title": "contato@serenityclinic.com.br",
+                  "subtitle": "Resposta em até 24h",
+                  "icon_color": "#eab308"
+                },
+                {
+                  "icon": "clock",
+                  "title": "Seg - Sex: 9h às 18h",
+                  "subtitle": "Sáb: 9h às 15h",
+                  "icon_color": "#eab308"
+                }
+              ]
+            },
+            {
+              "type": "process_info",
+              "title": "Como Funciona",
+              "background": "#ffffff",
+              "padding": "32px",
+              "border_radius": "16px",
+              "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+              "border": "1px solid #f4e6d7",
+              "steps": [
+                {
+                  "number": "1",
+                  "title": "Preencha o Formulário",
+                  "description": "Informe seus dados e preferências"
+                },
+                {
+                  "number": "2",
+                  "title": "Confirmação",
+                  "description": "Nossa equipe entrará em contato"
+                },
+                {
+                  "number": "3",
+                  "title": "Sua Consulta",
+                  "description": "Desfrute da experiência Serenity"
+                }
+              ]
+            },
+            {
+              "type": "special_offer",
+              "title": "Oferta Especial",
+              "background": "linear-gradient(135deg, #fefcf0, #fdf6d3)",
+              "padding": "32px",
+              "border_radius": "16px",
+              "border": "1px solid #fbeaa6",
+              "content": {
+                "highlight": "20% de desconto",
+                "text": "na primeira consulta para novos clientes. Válido até o final do mês!",
+                "note": "*Desconto aplicável apenas em tratamentos selecionados. Consulte condições.",
+                "note_style": {
+                  "font_size": "12px",
+                  "color": "#a4b5a4"
+                }
+              }
+            }
+          ]
+        },
+        "success_state": {
+          "icon": "check-circle",
+          "title": "Agendamento Realizado!",
+          "message": "Recebemos sua solicitação de agendamento. Nossa equipe entrará em contato em breve para confirmar sua consulta.",
+          "next_steps": [
+            "Confirmação por WhatsApp ou telefone",
+            "Envio de informações preparatórias",
+            "Lembrete 24h antes da consulta"
+          ],
+          "style": {
+            "background": "#ffffff",
+            "padding": "32px",
+            "border_radius": "16px",
+            "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+            "text_align": "center",
+            "max_width": "500px",
+            "margin": "0 auto"
+          }
+        }
+      },
+      "contact": {
+        "id": "contact",
+        "type": "contact_info",
+        "padding": "100px 0",
+        "background": "#ffffff",
+        "header": {
+          "subtitle": {
+            "text": "Contato",
+            "style": {
+              "color": "#eab308",
+              "font_size": "14px",
+              "font_weight": "500",
+              "text_transform": "uppercase",
+              "letter_spacing": "1px",
+              "text_align": "center",
+              "margin_bottom": "8px"
+            }
+          },
+          "title": {
+            "text": "Entre em<br><span style='color: #eab308;'>Contato</span>",
+            "tag": "h2",
+            "style": {
+              "font_family": "Playfair Display",
+              "font_size": "clamp(2rem, 4vw, 3rem)",
+              "font_weight": "700",
+              "color": "#334133",
+              "text_align": "center",
+              "margin_bottom": "24px"
+            }
+          },
+          "description": {
+            "text": "Estamos aqui para esclarecer suas dúvidas e ajudá-la a escolher o melhor tratamento. Entre em contato através dos canais abaixo.",
+            "style": {
+              "font_size": "18px",
+              "line_height": "1.6",
+              "color": "#5f7a5f",
+              "text_align": "center",
+              "max_width": "600px",
+              "margin": "0 auto 48px"
+            }
+          }
+        },
+        "layout": "two_column",
+        "left_column": {
+          "width": "50%",
+          "contact_cards": [
+            {
+              "type": "address",
+              "icon": "map-pin",
+              "title": "Localização",
+              "content": {
+                "address": "Rua das Flores, 123 - Jardins",
+                "city": "São Paulo - SP, 01234-567",
+                "note": "Próximo ao Shopping Iguatemi"
+              },
+              "link": {
+                "text": "Ver no Google Maps →",
+                "href": "#",
+                "style": {
+                  "color": "#eab308",
+                  "font_weight": "500",
+                  "text_decoration": "none"
+                }
+              },
+              "style": {
+                "background": "linear-gradient(135deg, #f6f7f6, #fefdfb)",
+                "padding": "32px",
+                "border_radius": "16px",
+                "margin_bottom": "32px"
+              }
+            },
+            {
+              "type": "phone",
+              "icon": "phone",
+              "title": "Telefone",
+              "content": {
+                "phone": "(11) 9999-9999",
+                "schedule": "Atendimento de segunda a sexta, das 9h às 18h",
+                "schedule_weekend": "Sábados das 9h às 15h"
+              },
+              "buttons": [
+                {
+                  "text": "WhatsApp",
+                  "href": "https://wa.me/5511999999999",
+                  "icon": "message-circle",
+                  "style": {
+                    "background": "#10b981",
+                    "color": "#ffffff",
+                    "padding": "8px 16px",
+                    "border_radius": "8px",
+                    "font_size": "14px",
+                    "margin_right": "12px"
+                  }
+                },
+                {
+                  "text": "Ligar Agora",
+                  "href": "tel:+5511999999999",
+                  "style": {
+                    "background": "transparent",
+                    "color": "#334133",
+                    "border": "1px solid #a4b5a4",
+                    "padding": "8px 16px",
+                    "border_radius": "8px",
+                    "font_size": "14px"
+                  }
+                }
+              ],
+              "style": {
+                "background": "#ffffff",
+                "padding": "32px",
+                "border_radius": "16px",
+                "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+                "border": "1px solid #f4e6d7",
+                "margin_bottom": "32px"
+              }
+            },
+            {
+              "type": "email",
+              "icon": "mail",
+              "title": "E-mail",
+              "content": {
+                "email": "contato@serenityclinic.com.br",
+                "response_time": "Resposta garantida em até 24 horas",
+                "purpose": "Para dúvidas, agendamentos e informações"
+              },
+              "style": {
+                "background": "linear-gradient(135deg, #fefcf0, #fdf6d3)",
+                "padding": "32px",
+                "border_radius": "16px",
+                "margin_bottom": "32px"
+              }
+            },
+            {
+              "type": "business_hours",
+              "icon": "clock",
+              "title": "Horário de Funcionamento",
+              "hours": [
+                {
+                  "day": "Segunda - Sexta",
+                  "time": "9h às 18h"
+                },
+                {
+                  "day": "Sábado",
+                  "time": "9h às 15h"
+                },
+                {
+                  "day": "Domingo",
+                  "time": "Fechado",
+                  "style": {
+                    "color": "#a4b5a4"
+                  }
+                }
+              ],
+              "note": "*Atendimento mediante agendamento prévio",
+              "style": {
+                "background": "#ffffff",
+                "padding": "32px",
+                "border_radius": "16px",
+                "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+                "border": "1px solid #f4e6d7"
+              }
+            }
+          ]
+        },
+        "right_column": {
+          "width": "50%",
+          "sections": [
+            {
+              "type": "map",
+              "title": "Como Chegar",
+              "map_placeholder": {
+                "height": "250px",
+                "background": "linear-gradient(135deg, #e3e7e3, #f9f1e6)",
+                "icon": "map-pin",
+                "text": "Mapa Interativo",
+                "subtext": "Rua das Flores, 123 - Jardins"
+              },
+              "description": "Localizada no coração dos Jardins, nossa clínica oferece fácil acesso por transporte público e estacionamento conveniado. A 2 minutos da estação Trianon-MASP.",
+              "button": {
+                "text": "Abrir no Google Maps",
+                "href": "#",
+                "style": {
+                  "background": "#eab308",
+                  "color": "#ffffff",
+                  "padding": "12px 24px",
+                  "border_radius": "8px",
+                  "font_weight": "500"
+                }
+              },
+              "style": {
+                "background": "#ffffff",
+                "border_radius": "16px",
+                "overflow": "hidden",
+                "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+                "border": "1px solid #f4e6d7",
+                "margin_bottom": "32px"
+              }
+            },
+            {
+              "type": "social_media",
+              "title": "Siga-nos nas Redes Sociais",
+              "background": "linear-gradient(135deg, #f6f7f6, #fefcf0)",
+              "padding": "32px",
+              "border_radius": "16px",
+              "social_links": [
+                {
+                  "platform": "instagram",
+                  "username": "@serenityclinic",
+                  "url": "https://instagram.com/serenityclinic",
+                  "icon": "instagram",
+                  "icon_color": "#e4405f"
+                },
+                {
+                  "platform": "facebook",
+                  "username": "Serenity Clinic",
+                  "url": "https://facebook.com/serenityclinic",
+                  "icon": "facebook",
+                  "icon_color": "#1877f2"
+                }
+              ],
+              "description": "Acompanhe nossas novidades, dicas de beleza e transformações incríveis dos nossos clientes.",
+              "margin_bottom": "32px"
+            },
+            {
+              "type": "faq",
+              "title": "Perguntas Frequentes",
+              "background": "#ffffff",
+              "padding": "32px",
+              "border_radius": "16px",
+              "shadow": "0 10px 30px rgba(0,0,0,0.1)",
+              "border": "1px solid #f4e6d7",
+              "questions": [
+                {
+                  "question": "Preciso agendar com antecedência?",
+                  "answer": "Sim, recomendamos agendamento com 48h de antecedência."
+                },
+                {
+                  "question": "Vocês atendem convênios?",
+                  "answer": "Atendemos alguns convênios. Consulte nossa recepção."
+                },
+                {
+                  "question": "Posso remarcar minha consulta?",
+                  "answer": "Sim, com até 24h de antecedência sem custos."
+                }
+              ],
+              "view_all_link": {
+                "text": "Ver todas as perguntas →",
+                "href": "#",
+                "style": {
+                  "color": "#eab308",
+                  "font_weight": "500",
+                  "text_decoration": "none"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "footer": {
+      "background": {
+        "type": "gradient",
+        "colors": ["#334133", "#2b362b"],
+        "direction": "to bottom"
+      },
+      "color": "#ffffff",
+      "padding": "64px 0 32px",
+      "sections": {
+        "main": {
+          "layout": "four_column",
+          "columns": [
+            {
+              "type": "brand",
+              "width": "25%",
+              "logo": {
+                "icon": {
+                  "type": "circle",
+                  "background": "linear-gradient(135deg, #f2c43d, #ca8a04)",
+                  "text": "S",
+                  "color": "#ffffff",
+                  "size": "40px",
+                  "font_family": "Playfair Display",
+                  "font_weight": "700"
+                },
+                "text": {
+                  "primary": "Serenity",
+                  "secondary": "Aesthetic Clinic",
+                  "primary_color": "#ffffff",
+                  "secondary_color": "rgba(255,255,255,0.7)",
+                  "primary_font": "Playfair Display",
+                  "secondary_font": "Inter"
+                }
+              },
+              "description": {
+                "text": "Há mais de 15 anos cuidando da sua beleza com excelência, dedicação e os mais altos padrões de qualidade.",
+                "style": {
+                  "color": "rgba(255,255,255,0.8)",
+                  "line_height": "1.6",
+                  "margin": "24px 0"
+                }
+              },
+              "social_links": [
+                {
+                  "platform": "instagram",
+                  "url": "https://instagram.com/serenityclinic",
+                  "icon": "instagram",
+                  "style": {
+                    "background": "#3d4f3d",
+                    "hover_background": "#eab308",
+                    "color": "#ffffff",
+                    "width": "40px",
+                    "height": "40px",
+                    "border_radius": "50%",
+                    "transition": "all 0.3s ease"
+                  }
+                },
+                {
+                  "platform": "facebook",
+                  "url": "https://facebook.com/serenityclinic",
+                  "icon": "facebook",
+                  "style": {
+                    "background": "#3d4f3d",
+                    "hover_background": "#eab308",
+                    "color": "#ffffff",
+                    "width": "40px",
+                    "height": "40px",
+                    "border_radius": "50%",
+                    "transition": "all 0.3s ease"
+                  }
+                },
+                {
+                  "platform": "whatsapp",
+                  "url": "https://wa.me/5511999999999",
+                  "icon": "message-circle",
+                  "style": {
+                    "background": "#3d4f3d",
+                    "hover_background": "#10b981",
+                    "color": "#ffffff",
+                    "width": "40px",
+                    "height": "40px",
+                    "border_radius": "50%",
+                    "transition": "all 0.3s ease"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "quick_links",
+              "width": "25%",
+              "title": "Links Rápidos",
+              "links": [
+                {
+                  "text": "Início",
+                  "href": "#home"
+                },
+                {
+                  "text": "Sobre Nós",
+                  "href": "#about"
+                },
+                {
+                  "text": "Serviços",
+                  "href": "#services"
+                },
+                {
+                  "text": "Galeria",
+                  "href": "#gallery"
+                },
+                {
+                  "text": "Equipe",
+                  "href": "#team"
+                },
+                {
+                  "text": "Contato",
+                  "href": "#contact"
+                }
+              ],
+              "link_style": {
+                "color": "rgba(255,255,255,0.8)",
+                "hover_color": "#f2c43d",
+                "text_decoration": "none",
+                "transition": "color 0.3s ease",
+                "margin_bottom": "12px"
+              }
+            },
+            {
+              "type": "services_list",
+              "width": "25%",
+              "title": "Principais Serviços",
+              "services": [
+                "Limpeza de Pele",
+                "Peeling Químico",
+                "Microagulhamento",
+                "Drenagem Linfática",
+                "Massagem Relaxante",
+                "Harmonização Facial"
+              ],
+              "item_style": {
+                "color": "rgba(255,255,255,0.8)",
+                "margin_bottom": "8px"
+              }
+            },
+            {
+              "type": "contact_info",
+              "width": "25%",
+              "title": "Contato",
+              "info": [
+                {
+                  "icon": "map-pin",
+                  "text": "Rua das Flores, 123\nJardins - São Paulo/SP\nCEP: 01234-567"
+                },
+                {
+                  "icon": "phone",
+                  "text": "(11) 9999-9999"
+                },
+                {
+                  "icon": "mail",
+                  "text": "contato@serenityclinic.com.br"
+                }
+              ],
+              "business_hours": {
+                "title": "Horário de Funcionamento",
+                "hours": [
+                  {
+                    "day": "Seg - Sex:",
+                    "time": "9h às 18h"
+                  },
+                  {
+                    "day": "Sábado:",
+                    "time": "9h às 15h"
+                  },
+                  {
+                    "day": "Domingo:",
+                    "time": "Fechado",
+                    "style": {
+                      "color": "rgba(255,255,255,0.5)"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "newsletter": {
+          "background": "rgba(255,255,255,0.05)",
+          "padding": "32px",
+          "border_radius": "12px",
+          "margin": "48px 0",
+          "title": "Newsletter",
+          "description": "Receba dicas exclusivas de beleza e ofertas especiais diretamente no seu e-mail.",
+          "form": {
+            "layout": "inline",
+            "email_field": {
+              "placeholder": "Seu melhor e-mail",
+              "style": {
+                "flex": "1",
+                "padding": "12px 16px",
+                "border": "none",
+                "border_radius": "8px 0 0 8px",
+                "background": "#ffffff",
+                "color": "#334133"
+              }
+            },
+            "submit_button": {
+              "text": "Inscrever",
+              "style": {
+                "background": "#eab308",
+                "color": "#ffffff",
+                "padding": "12px 24px",
+                "border": "none",
+                "border_radius": "0 8px 8px 0",
+                "font_weight": "500"
+              }
+            }
+          }
+        },
+        "bottom": {
+          "border_top": "1px solid #3d4f3d",
+          "padding_top": "32px",
+          "layout": "flex",
+          "justify_content": "space-between",
+          "align_items": "center",
+          "copyright": {
+            "text": "© 2025 Serenity Clinic. Todos os direitos reservados.",
+            "icon": "heart",
+            "style": {
+              "color": "rgba(255,255,255,0.8)",
+              "display": "flex",
+              "align_items": "center",
+              "gap": "8px"
+            }
+          },
+          "legal_links": [
+            {
+              "text": "Política de Privacidade",
+              "href": "/politica-privacidade"
+            },
+            {
+              "text": "Termos de Uso",
+              "href": "/termos-uso"
+            },
+            {
+              "text": "Cookies",
+              "href": "/cookies"
+            }
+          ],
+          "link_style": {
+            "color": "rgba(255,255,255,0.8)",
+            "hover_color": "#f2c43d",
+            "text_decoration": "none",
+            "font_size": "14px",
+            "margin_left": "24px"
+          }
+        }
+      }
+    },
+    "animations": {
+      "fade_in": {
+        "duration": "0.6s",
+        "easing": "ease-in-out",
+        "from": {
+          "opacity": "0"
+        },
+        "to": {
+          "opacity": "1"
+        }
+      },
+      "slide_up": {
+        "duration": "0.8s",
+        "easing": "ease-out",
+        "from": {
+          "opacity": "0",
+          "transform": "translateY(30px)"
+        },
+        "to": {
+          "opacity": "1",
+          "transform": "translateY(0)"
+        }
+      },
+      "float": {
+        "duration": "6s",
+        "easing": "ease-in-out",
+        "iteration": "infinite",
+        "keyframes": {
+          "0%": {
+            "transform": "translateY(0px)"
+          },
+          "50%": {
+            "transform": "translateY(-10px)"
+          },
+          "100%": {
+            "transform": "translateY(0px)"
+          }
+        }
+      },
+      "scroll_wheel": {
+        "duration": "2s",
+        "iteration": "infinite",
+        "keyframes": {
+          "0%": {
+            "transform": "translateY(0)"
+          },
+          "50%": {
+            "transform": "translateY(8px)"
+          },
+          "100%": {
+            "transform": "translateY(0)"
+          }
+        }
+      }
+    },
+    "responsive": {
+      "breakpoints": {
+        "mobile": "480px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "large": "1200px"
+      },
+      "mobile": {
+        "header": {
+          "height": "70px",
+          "padding": "0 16px"
+        },
+        "hero": {
+          "padding": "80px 16px 60px",
+          "title_size": "36px",
+          "subtitle_size": "16px"
+        },
+        "sections": {
+          "padding": "60px 16px"
+        },
+        "grid_columns": "1",
+        "font_sizes": {
+          "h1": "36px",
+          "h2": "28px",
+          "h3": "24px",
+          "body": "16px"
+        }
+      },
+      "tablet": {
+        "grid_columns": "2",
+        "font_sizes": {
+          "h1": "48px",
+          "h2": "36px",
+          "h3": "28px",
+          "body": "16px"
+        }
+      }
+    },
+    "interactions": {
+      "smooth_scroll": {
+        "enabled": true,
+        "duration": "800ms",
+        "easing": "ease-in-out"
+      },
+      "hover_effects": {
+        "cards": {
+          "transform": "translateY(-8px)",
+          "shadow": "0 20px 40px rgba(0,0,0,0.15)",
+          "transition": "all 0.3s ease"
+        },
+        "buttons": {
+          "transform": "translateY(-2px)",
+          "shadow": "0 8px 25px rgba(234, 179, 8, 0.4)",
+          "transition": "all 0.3s ease"
+        },
+        "images": {
+          "transform": "scale(1.05)",
+          "transition": "transform 0.3s ease"
+        }
+      },
+      "loading_states": {
+        "form_submit": {
+          "text": "Enviando...",
+          "disabled": true,
+          "spinner": true
+        },
+        "image_lazy_load": {
+          "placeholder": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2Y5ZjFlNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjYTRiNWE0Ij5DYXJyZWdhbmRvLi4uPC90ZXh0Pjwvc3ZnPg=="
+        }
+      }
+    },
+    "seo": {
+      "meta_tags": {
+        "robots": "index, follow",
+        "canonical": "https://serenityclinic.com.br",
+        "og_type": "website",
+        "og_site_name": "Serenity Clinic",
+        "twitter_card": "summary_large_image"
+      },
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Serenity Clinic",
+        "description": "Clínica de estética especializada em tratamentos de alto padrão",
+        "url": "https://serenityclinic.com.br",
+        "telephone": "+5511999999999",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua das Flores, 123",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "postalCode": "01234-567",
+          "addressCountry": "BR"
+        },
+        "openingHours": [
+          "Mo-Fr 09:00-18:00",
+          "Sa 09:00-15:00"
+        ],
+        "priceRange": "$$",
+        "image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg"
+      }
+    },
+    "performance": {
+      "lazy_loading": {
+        "images": true,
+        "iframes": true
+      },
+      "critical_css": {
+        "inline": true,
+        "above_fold": true
+      },
+      "preload": [
+        {
+          "href": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap",
+          "as": "style"
+        },
+        {
+          "href": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap",
+          "as": "style"
+        }
+      ]
+    },
+    "analytics": {
+      "google_analytics": {
+        "enabled": false,
+        "tracking_id": "GA_MEASUREMENT_ID"
+      },
+      "facebook_pixel": {
+        "enabled": false,
+        "pixel_id": "FACEBOOK_PIXEL_ID"
+      }
+    }
+  }
+}
