@@ -1,0 +1,37 @@
+# Placeholder Images
+
+Para o tema funcionar corretamente, você precisa adicionar as seguintes imagens placeholder na pasta `/assets/img/`:
+
+## Imagens Necessárias:
+
+1. **hero-placeholder.jpg** (1920x1080px)
+   - Imagem de fundo para a seção hero
+   - Sugestão: Ambiente de spa ou clínica
+
+2. **feature-placeholder.jpg** (400x300px)
+   - Imagem padrão para os diferenciais
+   - Sugestão: Ícones ou símbolos relacionados à estética
+
+3. **cta-placeholder.jpg** (1920x600px)
+   - Imagem de fundo para a seção CTA
+   - Sugestão: Ambiente relaxante ou tratamento
+
+4. **placeholder.jpg** (600x400px)
+   - Imagem padrão geral
+   - Sugestão: Logo ou imagem neutra
+
+## Como Adicionar:
+
+1. Baixe imagens gratuitas do Pexels, Unsplash ou Pixabay
+2. Redimensione conforme as especificações acima
+3. Salve na pasta `/assets/img/` com os nomes exatos
+4. Ou use as URLs do Pexels diretamente no código
+
+## URLs do Pexels Sugeridas:
+
+- Hero: https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg
+- Feature: https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg
+- CTA: https://images.pexels.com/photos/3985162/pexels-photo-3985162.jpeg
+- Placeholder: https://images.pexels.com/photos/3985164/pexels-photo-3985164.jpeg
+
+Essas imagens são apenas placeholders e devem ser substituídas pelas imagens reais da clínica através do painel do WordPress.

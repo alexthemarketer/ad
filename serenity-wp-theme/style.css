@@ -1,0 +1,18 @@
+/*
+Theme Name: Serenity Clinic Pro
+Description: Tema WordPress moderno para clínicas de estética com total personalização de cores e imagens via painel administrativo. Design responsivo e otimizado para performance.
+Author: Serenity Design Studio
+Version: 2.0.0
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: serenity-clinic-pro
+Tags: medical, spa, clinic, aesthetic, luxury, responsive, custom-colors, custom-menu, featured-images, threaded-comments, translation-ready, block-patterns, full-site-editing
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 8.0
+
+Serenity Clinic Pro - Tema WordPress premium para clínicas de estética.
+Totalmente personalizável via painel administrativo.
+*/
+
+/* Main styles are loaded via functions.php */
